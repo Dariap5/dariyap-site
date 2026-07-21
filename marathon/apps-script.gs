@@ -190,13 +190,56 @@ function json(obj) {
 /* ============ проверка настройки ============ */
 
 /* Запусти вручную кнопкой «Выполнить», выбрав эту функцию:
-   создаст оба листа и, если указана почта, пришлёт проверочное письмо. */
+   создаст оба листа, раскрасит их и пришлёт проверочное письмо. */
 function setup() {
-  sheet(LEADS, ['Дата', 'Имя', 'Telegram', 'Тариф', 'Оплата', 'Страница']);
-  sheet(PAYMENTS, ['Дата', 'Событие', 'Сумма', 'Описание', 'Плательщик', 'Метка', 'ID платежа']);
+  const leads = sheet(LEADS, ['Дата', 'Имя', 'Telegram', 'Тариф', 'Оплата', 'Страница']);
+  const payments = sheet(PAYMENTS, ['Дата', 'Событие', 'Сумма', 'Описание', 'Плательщик', 'Метка', 'ID платежа']);
+
+  paintLeads(leads);
+  paintPayments(payments);
+  fitColumns(leads, 6);
+  fitColumns(payments, 7);
 
   if (!WEBHOOK_KEY) {
     console.warn('WEBHOOK_KEY пустой — уведомления от ЮKassa принимать нельзя');
   }
   notify('проверка связи', 'Таблица марафона на месте, письма доходят.');
+}
+
+/* ============ оформление ============ */
+
+/* Заявки красятся по колонке «Оплата»: сразу видно, кто дошёл до конца,
+   кто ещё думает, а кому вернули деньги. */
+function paintLeads(sh) {
+  const range = sh.getRange('A2:F2000');
+
+  const rule = (formula, color) =>
+    SpreadsheetApp.newConditionalFormatRule()
+      .whenFormulaSatisfied(formula)
+      .setBackground(color)
+      .setRanges([range])
+      .build();
+
+  sh.setConditionalFormatRules([
+    rule('=$E2="оплачено"', '#E4F0E4'), // зелёный — деньги пришли
+    rule('=$E2="возврат"', '#F6E3E0'),  // розовый — вернули
+    rule('=$E2=""', '#FBF6EC'),         // песочный — заявка без оплаты
+  ]);
+}
+
+/* Возвраты в оплатах подсвечиваем, чтобы не спутать их с поступлениями. */
+function paintPayments(sh) {
+  const range = sh.getRange('A2:G2000');
+
+  sh.setConditionalFormatRules([
+    SpreadsheetApp.newConditionalFormatRule()
+      .whenFormulaSatisfied('=$B2="refund.succeeded"')
+      .setBackground('#F6E3E0')
+      .setRanges([range])
+      .build(),
+  ]);
+}
+
+function fitColumns(sh, count) {
+  for (let c = 1; c <= count; c++) sh.autoResizeColumn(c);
 }
