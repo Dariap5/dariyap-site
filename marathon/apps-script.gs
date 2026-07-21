@@ -87,8 +87,10 @@ function handlePayment(data) {
   const description = clean(o.description);
   const payer = payerOf(o);
 
-  // телеграм-ник, если его удалось передать в платёж
-  const tag = findTelegram([description, JSON.stringify(o.metadata || {})].join(' '));
+  /* Ник ищем по всему уведомлению, а не в одном поле: ЮKassa кладёт
+     customerNumber то в описание, то в metadata, в зависимости от того,
+     как создан платёж. Дешевле обыскать всё, чем гадать. */
+  const tag = findTelegram(JSON.stringify(o));
 
   sh.appendRow([new Date(), event, amount, description, payer, tag, id]);
 
@@ -134,9 +136,12 @@ function clean(v) {
   return String(v == null ? '' : v).trim().slice(0, 300);
 }
 
+/* Ищем @ник. Собака должна стоять в начале или после разделителя:
+   иначе в почте плательщика «оксана@example.com» мы бы приняли
+   за ник кусок домена — и связали платёж не с той заявкой. */
 function findTelegram(text) {
-  const m = String(text).match(/@[A-Za-z0-9_]{3,}/);
-  return m ? m[0] : '';
+  const m = String(text).match(/(?:^|[\s"'·,;:(\[])@([A-Za-z0-9_]{3,})/);
+  return m ? '@' + m[1] : '';
 }
 
 function payerOf(o) {
