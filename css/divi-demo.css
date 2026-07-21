@@ -1,0 +1,380 @@
+/**
+ * Стили и анимации по мотивам Divi Pixel Insurance demo.
+ * Размеры на десктопе — в desktop-figma.css; здесь — motion, hover, easing.
+ */
+
+:root {
+  --ease-divi: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-divi-in-out: ease-in-out;
+  --duration-fast: 0.2s;
+  --duration-mid: 0.5s;
+  --duration-slow: 0.6s;
+  --duration-hero: 0.8s;
+}
+
+/* —— Scroll reveal (fadeInUp как в Divi / animate.css) —— */
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
+  transition:
+    opacity var(--duration-slow) var(--ease-divi),
+    transform var(--duration-slow) var(--ease-divi);
+  will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.reveal--delay-1 { transition-delay: 0.08s; }
+.reveal--delay-2 { transition-delay: 0.16s; }
+.reveal--delay-3 { transition-delay: 0.24s; }
+
+/* —— Header —— */
+.header {
+  transition:
+    background var(--duration-mid) var(--ease-divi-in-out),
+    backdrop-filter var(--duration-mid) var(--ease-divi-in-out),
+    box-shadow var(--duration-mid) var(--ease-divi-in-out);
+}
+
+.header__nav a,
+.header__cta,
+.header__logo {
+  transition: opacity var(--duration-fast) ease, color var(--duration-mid) ease;
+}
+
+.header__nav a:hover,
+.header__cta:hover {
+  opacity: 0.88;
+}
+
+/* —— Hero social links —— */
+.hero__social-link {
+  transition:
+    transform var(--duration-mid) var(--ease-divi),
+    box-shadow var(--duration-mid) var(--ease-divi-in-out),
+    background var(--duration-mid) ease;
+}
+
+.hero__social-link:hover {
+  transform: translateY(-3px);
+}
+
+@keyframes hero-scroll-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+.hero__scroll {
+  transition: opacity var(--duration-fast) ease;
+}
+
+.hero__scroll:hover {
+  opacity: 0.9;
+}
+
+.hero__scroll-ring {
+  animation: hero-scroll-bounce 2.2s var(--ease-divi-in-out) infinite;
+}
+
+.hero__content.reveal {
+  opacity: 1;
+  transform: none;
+}
+
+.hero__content.reveal:not(.is-visible) {
+  opacity: 0;
+  transform: translate3d(0, 24px, 0);
+}
+
+.hero__content.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.hero__content {
+  transition: opacity var(--duration-slow) var(--ease-divi), transform var(--duration-slow) var(--ease-divi);
+}
+
+.hero__link {
+  transition: opacity var(--duration-fast) ease, transform var(--duration-mid) var(--ease-divi);
+}
+
+.hero__link:hover {
+  opacity: 0.85;
+  transform: translateX(4px);
+}
+
+/* —— Topics tabs (dipi-at-tabs) —— */
+.topics__tab {
+  transition:
+    background var(--duration-mid) var(--ease-divi-in-out),
+    color var(--duration-mid) var(--ease-divi-in-out),
+    transform var(--duration-mid) var(--ease-divi);
+}
+
+.topics__tab:hover:not(.is-active) {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.topics__tab.is-active {
+  transform: translateX(2px);
+}
+
+.topics__detail,
+.topics__photo,
+.topics__stat {
+  transition: opacity var(--duration-mid) var(--ease-divi-in-out);
+}
+
+.topics__detail.is-fading {
+  opacity: 0;
+}
+
+.topic-card {
+  transition:
+    transform var(--duration-slow) var(--ease-divi-in-out),
+    box-shadow var(--duration-slow) var(--ease-divi-in-out),
+    border-color var(--duration-mid) ease;
+}
+
+.topic-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(14, 30, 37, 0.12);
+}
+
+.topics__stat-arrow img {
+  transition: transform var(--duration-slow) var(--ease-divi-in-out);
+}
+
+.topics__stat-arrow:hover img {
+  transform: rotate(270deg) scale(1.08);
+}
+
+/* —— Roles gallery —— */
+.roles__gallery img {
+  transition: transform var(--duration-slow) var(--ease-divi-in-out);
+}
+
+.roles__gallery img:hover {
+  transform: scale(1.03);
+}
+
+/* —— Changes —— */
+.changes__pill {
+  transition:
+    transform var(--duration-mid) var(--ease-divi),
+    box-shadow var(--duration-mid) ease;
+}
+
+.changes__pill:hover {
+  transform: translateX(-50%) translateY(-3px);
+  box-shadow: 0 8px 24px rgba(14, 30, 37, 0.18);
+}
+
+.changes__pill span,
+.changes__pill-icon {
+  flex-shrink: 0;
+}
+
+.changes__step {
+  transition: opacity var(--duration-mid) ease;
+}
+
+/* —— Format cards —— */
+.format-card {
+  transition:
+    transform var(--duration-slow) var(--ease-divi-in-out),
+    box-shadow var(--duration-slow) var(--ease-divi-in-out);
+}
+
+.format-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+.format-card__arrow {
+  transition: background var(--duration-mid) ease, transform var(--duration-mid) var(--ease-divi);
+}
+
+.format-card:hover .format-card__arrow {
+  background: var(--green-light);
+  transform: translateY(2px);
+}
+
+.formats__faq-item {
+  transition: color var(--duration-mid) ease, padding-left var(--duration-mid) var(--ease-divi);
+}
+
+.formats__faq-item:hover {
+  color: var(--green-accent);
+  padding-left: 6px;
+}
+
+.formats__faq-chevron {
+  display: inline-block;
+  transition: transform var(--duration-mid) var(--ease-divi);
+}
+
+.formats__faq-item:hover .formats__faq-chevron {
+  transform: translateX(4px);
+}
+
+/* —— Process —— */
+.process-card {
+  transition:
+    transform var(--duration-slow) var(--ease-divi-in-out),
+    box-shadow var(--duration-slow) var(--ease-divi-in-out);
+}
+
+.process-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 36px rgba(30, 47, 34, 0.08);
+}
+
+/* —— Reviews accordion —— */
+.review-item__toggle {
+  transition: background var(--duration-mid) ease, transform var(--duration-mid) var(--ease-divi);
+}
+
+.review-item__head:hover .review-item__toggle {
+  transform: scale(1.05);
+}
+
+.review-item__body {
+  display: grid;
+  grid-template-rows: 0fr;
+  padding-left: 59px;
+  padding-right: 0;
+  padding-bottom: 0;
+  transition: grid-template-rows var(--duration-slow) var(--ease-divi-in-out);
+}
+
+.review-item__body[hidden] {
+  display: none;
+}
+
+.review-item.is-open .review-item__body {
+  display: grid;
+  grid-template-rows: 1fr;
+  padding-bottom: 24px;
+}
+
+.review-item.is-open .review-item__body[hidden] {
+  display: grid;
+}
+
+.review-item__body-inner {
+  overflow: hidden;
+}
+
+/* —— Blog carousel (dipi-carousel) —— */
+.blog__track {
+  transition: transform var(--duration-slow) var(--ease-divi-in-out);
+}
+
+.blog-card {
+  transition:
+    transform var(--duration-slow) var(--ease-divi-in-out),
+    box-shadow var(--duration-slow) var(--ease-divi-in-out);
+}
+
+.blog-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 44px rgba(14, 30, 37, 0.12);
+}
+
+.blog-card__img > img {
+  transition: transform var(--duration-slow) var(--ease-divi-in-out);
+}
+
+.blog-card:hover .blog-card__img > img {
+  transform: scale(1.05);
+}
+
+.blog__nav button {
+  transition:
+    transform var(--duration-mid) var(--ease-divi),
+    background var(--duration-fast) ease,
+    opacity var(--duration-fast) ease;
+}
+
+.blog__nav button:hover {
+  transform: scale(1.06);
+  opacity: 0.92;
+}
+
+.blog__nav button:active {
+  transform: scale(0.96);
+}
+
+/* —— CTA & buttons —— */
+.btn {
+  transition:
+    transform var(--duration-mid) var(--ease-divi),
+    box-shadow var(--duration-mid) ease,
+    opacity var(--duration-fast) ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.15);
+}
+
+.cta__box {
+  transition: box-shadow var(--duration-slow) var(--ease-divi-in-out);
+}
+
+/* —— Footer —— */
+.footer__pill-btn,
+.footer__col a {
+  transition: opacity var(--duration-fast) ease, transform var(--duration-mid) var(--ease-divi);
+}
+
+.footer__pill-btn:hover {
+  transform: translateY(-2px);
+}
+
+.fab {
+  transition:
+    opacity var(--duration-mid) var(--ease-divi),
+    visibility var(--duration-mid) var(--ease-divi),
+    transform var(--duration-mid) var(--ease-divi),
+    box-shadow var(--duration-mid) ease;
+}
+
+.fab.is-visible:hover {
+  transform: scale(1.08);
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .hero__scroll-ring {
+    animation: none;
+  }
+
+  .hero__social-link:hover,
+  .topic-card:hover,
+  .format-card:hover,
+  .blog-card:hover,
+  .process-card:hover {
+    transform: none;
+  }
+
+  .blog__track {
+    transition: none;
+  }
+}

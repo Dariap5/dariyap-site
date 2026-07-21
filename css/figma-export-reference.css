@@ -1,0 +1,6761 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v0_3 {
+  width: 100%;
+  height: 9379px;
+  background: url("../assets/figma-export/v0_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_4 {
+  width: 100%;
+  height: 982px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_5 {
+  width: 100%;
+  height: 884px;
+  background: url("../assets/figma-export/v0_5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.v0_6 {
+  width: 100%;
+  height: 884px;
+  background: url("../assets/figma-export/v0_6.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_7 {
+  width: 100%;
+  height: 970px;
+  background: url("../assets/figma-export/v0_7.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_8 {
+  width: 710px;
+  height: 247px;
+  background: url("../assets/figma-export/v0_8.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 529px;
+  left: 682px;
+  overflow: hidden;
+}
+.v0_9 {
+  width: 651px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 100px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_10 {
+  width: 205px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 128px;
+  left: 0px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 100px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_11 {
+  width: 388px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 155px;
+  left: 251px;
+  font-family: LeoHand;
+  font-weight: Light;
+  font-size: 108px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_12 {
+  width: 400px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 775px;
+  left: 696px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_13 {
+  width: 100%;
+  height: 884px;
+  background: url("../assets/figma-export/v0_13.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1440px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_14 {
+  width: 34px;
+  height: 13px;
+  background: url("../assets/figma-export/v0_14.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 864px;
+  left: 80px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_15 {
+  width: 91px;
+  height: 22px;
+  background: url("../assets/figma-export/v0_15.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 875px;
+  left: 50px;
+  overflow: hidden;
+}
+.v0_16 {
+  width: 500px;
+  height: 144px;
+  background: url("../assets/figma-export/v0_16.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 616px;
+  left: 734px;
+  overflow: hidden;
+}
+.v0_17 {
+  width: 19px;
+  height: 36px;
+  background: url("../assets/figma-export/v0_17.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 829px;
+  left: 1009px;
+  overflow: hidden;
+}
+.v0_18 {
+  width: 100%;
+  height: 884px;
+  background: url("../assets/figma-export/v0_18.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 2880px;
+  overflow: hidden;
+}
+.v0_19 {
+  width: 100%;
+  height: 849px;
+  background: url("../assets/figma-export/v0_19.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_20 {
+  width: 34px;
+  height: 48px;
+  background: url("../assets/figma-export/v0_20.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 732px;
+  left: 80px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_21 {
+  width: 91px;
+  height: 20px;
+  background: url("../assets/figma-export/v0_21.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 793px;
+  left: 50px;
+  overflow: hidden;
+}
+.v0_22 {
+  width: 614px;
+  height: 110px;
+  background: url("../assets/figma-export/v0_22.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 616px;
+  left: 734px;
+  overflow: hidden;
+}
+.v0_23 {
+  width: 19px;
+  height: 34px;
+  background: url("../assets/figma-export/v0_23.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 747px;
+  left: 1009px;
+  overflow: hidden;
+}
+.v0_24 {
+  width: 34px;
+  height: 48px;
+  background: url("../assets/figma-export/v0_24.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 761px;
+  left: 80px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_25 {
+  width: 20px;
+  height: 20px;
+  background: url("../assets/figma-export/v0_25.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 34px;
+  left: 7px;
+  overflow: hidden;
+}
+.v0_26 {
+  width: 9px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+.v0_27 {
+  width: 91px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 822px;
+  left: 50px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_28 {
+  width: 80px;
+  height: 25px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 371px;
+  left: 72px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_29 {
+  width: 8px;
+  height: 8px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 22px;
+  left: 9px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.v0_30 {
+  width: 8px;
+  height: 8px;
+  background: rgba(0,0,0,1);
+  opacity: 0.20000000298023224;
+  position: absolute;
+  top: 38px;
+  left: 9px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.v0_31 {
+  width: 8px;
+  height: 8px;
+  background: rgba(0,0,0,1);
+  opacity: 0.20000000298023224;
+  position: absolute;
+  top: 54px;
+  left: 9px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.v0_32 {
+  width: 100%;
+  height: 73px;
+  background: rgba(0,0,0,0.20000000298023224);
+  padding: 12px 24px;
+  margin: 393px;
+  opacity: 1;
+  position: absolute;
+  top: 24px;
+  left: 128px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_33 {
+  width: 105px;
+  height: 36px;
+  background: url("../assets/figma-export/v0_33.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 18px;
+  left: 24px;
+  overflow: hidden;
+}
+.v0_34 {
+  width: 20px;
+  height: 20px;
+  background: url("../assets/figma-export/v0_34.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_35 {
+  width: 3px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 14px;
+  left: 5px;
+}
+.v0_36 {
+  width: 4px;
+  height: 3px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 1px;
+}
+.v0_37 {
+  width: 5px;
+  height: 3px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 0px;
+}
+.v0_38 {
+  width: 5px;
+  height: 3px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+}
+.v0_39 {
+  width: 3px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 3px;
+}
+.v0_40 {
+  width: 3px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 7px;
+}
+.v0_41 {
+  width: 3px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 11px;
+}
+.v0_42 {
+  width: 4px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 3px;
+  left: 13px;
+}
+.v0_43 {
+  width: 5px;
+  height: 3px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 15px;
+}
+.v0_44 {
+  width: 5px;
+  height: 3px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 14px;
+}
+.v0_45 {
+  width: 3px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 13px;
+  left: 12px;
+}
+.v0_46 {
+  width: 3px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 9px;
+}
+.v0_47 {
+  width: 77px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 0px;
+  left: 28px;
+  font-family: Inter Tight;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_48 {
+  width: 666px;
+  height: 49px;
+  background: url("../assets/figma-export/v0_48.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 22px;
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 522px;
+  overflow: hidden;
+}
+.v0_49 {
+  width: 41px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 16px;
+  left: 0px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: right;
+}
+.v0_50 {
+  width: 75px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 16px;
+  left: 63px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: right;
+}
+.v0_51 {
+  width: 125px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 16px;
+  left: 160px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: right;
+}
+.v0_52 {
+  width: 75px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 16px;
+  left: 308px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: right;
+}
+.v0_53 {
+  width: 41px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 16px;
+  left: 406px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: right;
+}
+.v0_54 {
+  width: 55px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 16px;
+  left: 469px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: right;
+}
+.v0_55 {
+  width: 118px;
+  height: 49px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 547px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v0_56 {
+  width: 78px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_57 {
+  width: 100%;
+  height: 1038px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 982px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_58 {
+  width: 511px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 67px;
+  left: 479px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_59 {
+  width: 100%;
+  height: 479px;
+  background: rgba(230,239,231,1);
+  opacity: 1;
+  position: absolute;
+  top: 280px;
+  left: 110px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_60 {
+  width: 294px;
+  height: 419px;
+  background: rgba(0,0,0,0.10000000149011612);
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 279px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_61 {
+  width: 159px;
+  color: rgba(34,34,34,0.5);
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_62 {
+  width: 241px;
+  color: rgba(34,34,34,1);
+  position: absolute;
+  top: 245px;
+  left: 29px;
+  font-family: Inter Tight;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_63 {
+  width: 294px;
+  height: 419px;
+  background: url("../assets/figma-export/v0_63.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 29px;
+  left: 602px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_64 {
+  width: 294px;
+  height: 419px;
+  background: rgba(255,255,255,0.4000000059604645);
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 925px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_65 {
+  width: 30px;
+  height: 30px;
+  background: url("../assets/figma-export/v0_65.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 60px;
+  left: 234px;
+  overflow: hidden;
+}
+.v0_66 {
+  width: 22px;
+  height: 22px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 3px;
+}
+.v0_67 {
+  width: 192px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 247px;
+  left: 30px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 80px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_68 {
+  width: 212px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 342px;
+  left: 30px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_69 {
+  width: 219px;
+  height: 63px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_70 {
+  width: 140px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_71 {
+  width: 128px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 112px;
+  left: 55px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_72 {
+  width: 135px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 176px;
+  left: 55px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_73 {
+  width: 162px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 241px;
+  left: 55px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_74 {
+  width: 159px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 305px;
+  left: 55px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_75 {
+  width: 161px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 368px;
+  left: 55px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_76 {
+  width: 392px;
+  height: 129px;
+  background: url("../assets/figma-export/v0_76.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 798px;
+  left: 110px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v0_77 {
+  width: 36px;
+  color: rgba(140,143,151,1);
+  position: absolute;
+  top: 26px;
+  left: 26px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_78 {
+  width: 228px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 23px;
+  left: 77px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_79 {
+  width: 285px;
+  color: rgba(102,102,102,1);
+  position: absolute;
+  top: 56px;
+  left: 76px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_80 {
+  width: 32px;
+  height: 32px;
+  background: url("../assets/figma-export/v0_80.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 58px;
+  left: 26px;
+  overflow: hidden;
+}
+.v0_81 {
+  width: 32px;
+  height: 28px;
+  background: rgba(140,143,151,1);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+}
+.v0_82 {
+  width: 392px;
+  height: 129px;
+  background: url("../assets/figma-export/v0_82.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 798px;
+  left: 539px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v0_83 {
+  width: 40px;
+  color: rgba(140,143,151,1);
+  position: absolute;
+  top: 26px;
+  left: 26px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_84 {
+  width: 193px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 25px;
+  left: 81px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_85 {
+  width: 259px;
+  color: rgba(102,102,102,1);
+  position: absolute;
+  top: 56px;
+  left: 80px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_86 {
+  width: 32px;
+  height: 32px;
+  background: url("../assets/figma-export/v0_86.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 58px;
+  left: 26px;
+  overflow: hidden;
+}
+.v0_87 {
+  width: 32px;
+  height: 28px;
+  background: rgba(140,143,151,1);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+}
+.v0_88 {
+  width: 392px;
+  height: 129px;
+  background: url("../assets/figma-export/v0_88.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 798px;
+  left: 968px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v0_89 {
+  width: 32px;
+  height: 32px;
+  background: url("../assets/figma-export/v0_89.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 58px;
+  left: 26px;
+  overflow: hidden;
+}
+.v0_90 {
+  width: 32px;
+  height: 28px;
+  background: rgba(140,143,151,1);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+}
+.v0_91 {
+  width: 213px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 25px;
+  left: 73px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_92 {
+  width: 292px;
+  color: rgba(102,102,102,1);
+  position: absolute;
+  top: 57px;
+  left: 73px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_93 {
+  width: 100%;
+  height: 1178px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 2021px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_94 {
+  width: 199px;
+  height: 34px;
+  background: url("../assets/figma-export/v0_94.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 29px;
+  left: 635px;
+  overflow: hidden;
+}
+.v0_95 {
+  width: 199px;
+  height: 34px;
+  background: url("../assets/figma-export/v0_95.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_96 {
+  width: 199px;
+  height: 34px;
+  background: url("../assets/figma-export/v0_96.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_97 {
+  width: 3px;
+  height: 29px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 44px;
+}
+.v0_98 {
+  width: 17px;
+  height: 21px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 51px;
+}
+.v0_99 {
+  width: 16px;
+  height: 22px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 69px;
+}
+.v0_100 {
+  width: 17px;
+  height: 21px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 87px;
+}
+.v0_101 {
+  width: 10px;
+  height: 21px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 108px;
+}
+.v0_102 {
+  width: 18px;
+  height: 22px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 118px;
+}
+.v0_103 {
+  width: 17px;
+  height: 21px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 139px;
+}
+.v0_104 {
+  width: 20px;
+  height: 22px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 158px;
+}
+.v0_105 {
+  width: 20px;
+  height: 22px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 179px;
+}
+.v0_106 {
+  width: 5px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 24px;
+  left: 8px;
+}
+.v0_107 {
+  width: 7px;
+  height: 6px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 21px;
+  left: 3px;
+}
+.v0_108 {
+  width: 8px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 0px;
+}
+.v0_109 {
+  width: 8px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 8px;
+  left: 1px;
+}
+.v0_110 {
+  width: 6px;
+  height: 7px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 3px;
+  left: 5px;
+}
+.v0_111 {
+  width: 5px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 12px;
+}
+.v0_112 {
+  width: 5px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 19px;
+}
+.v0_113 {
+  width: 7px;
+  height: 6px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 23px;
+}
+.v0_114 {
+  width: 8px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 25px;
+}
+.v0_115 {
+  width: 8px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 19px;
+  left: 24px;
+}
+.v0_116 {
+  width: 6px;
+  height: 7px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 23px;
+  left: 21px;
+}
+.v0_117 {
+  width: 5px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 16px;
+}
+.v0_118 {
+  width: 100%;
+  height: 183px;
+  background: url("../assets/figma-export/v0_118.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 113px;
+  left: 185px;
+  overflow: hidden;
+}
+.v0_119 {
+  width: 601px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 252px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 70px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_120 {
+  width: 690px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 92px;
+  left: 205px;
+  font-family: LeoHand;
+  font-weight: Light;
+  font-size: 86px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_121 {
+  width: 189px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 397px;
+  left: 110px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_122 {
+  width: 104px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 694px;
+  left: 110px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 60px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_123 {
+  width: 203px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 780px;
+  left: 110px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_124 {
+  width: 40px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 398px;
+  left: 367px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_125 {
+  width: 178px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 466px;
+  left: 367px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_126 {
+  width: 203px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 499px;
+  left: 367px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_127 {
+  width: 219px;
+  height: 2px;
+  background: url("../assets/figma-export/v0_127.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 642px;
+  left: 367px;
+  border: 0px solid rgba(241,240,239,1);
+  overflow: hidden;
+}
+.v0_128 {
+  width: 203px;
+  height: 189px;
+  background: url("../assets/figma-export/v0_128.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 685px;
+  left: 367px;
+  overflow: hidden;
+}
+.v0_129 {
+  width: 40px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_130 {
+  width: 172px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 67px;
+  left: 0px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_131 {
+  width: 203px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_132 {
+  width: 440px;
+  color: rgba(30,47,34,1);
+  position: absolute;
+  top: 987px;
+  left: 514px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_133 {
+  width: 100%;
+  height: 563px;
+  background: url("../assets/figma-export/v0_133.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 24px;
+  opacity: 1;
+  position: absolute;
+  top: 381px;
+  left: 657px;
+  overflow: hidden;
+}
+.v0_134 {
+  width: 512px;
+  height: 563px;
+  background: url("../assets/figma-export/v0_134.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_135 {
+  width: 512px;
+  height: 563px;
+  background: url("../assets/figma-export/v0_135.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 536px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_136 {
+  width: 512px;
+  height: 563px;
+  background: url("../assets/figma-export/v0_136.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1072px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_137 {
+  width: 100%;
+  height: 798px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 3199px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_138 {
+  width: 250px;
+  height: 275px;
+  background: url("../assets/figma-export/v0_138.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 290px;
+  left: 193px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.v0_139 {
+  width: 250px;
+  height: 275px;
+  background: url("../assets/figma-export/v0_139.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_140 {
+  width: 220px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 584px;
+  left: 193px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_141 {
+  width: 416px;
+  height: 157px;
+  background: url("../assets/figma-export/v0_141.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 526px;
+  overflow: hidden;
+}
+.v0_142 {
+  width: 432px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 70px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_143 {
+  width: 649px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 77px;
+  left: 117px;
+  font-family: LeoHand;
+  font-weight: Light;
+  font-size: 86px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_144 {
+  width: 416px;
+  height: 458px;
+  background: url("../assets/figma-export/v0_144.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 193px;
+  left: 526px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_145 {
+  width: 416px;
+  height: 458px;
+  background: url("../assets/figma-export/v0_145.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_146 {
+  width: 64px;
+  height: 32px;
+  background: rgba(255,255,255,1);
+  position: absolute;
+  top: 414px;
+  left: 12px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0.054901961237192154, 0.11764705926179886, 0.14509804546833038, 0.3199999928474426);
+  overflow: hidden;
+}
+.v0_147 {
+  width: 32px;
+  height: 32px;
+  background: url("../assets/figma-export/v0_147.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  overflow: hidden;
+}
+.v0_148 {
+  width: 24px;
+  height: 24px;
+  background: url("../assets/figma-export/v0_148.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  overflow: hidden;
+}
+.v0_149 {
+  width: 16px;
+  height: 14px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 4px;
+}
+.v0_150 {
+  width: 7px;
+  height: 7px;
+  background: url("../assets/figma-export/v0_150.png");
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  border: 1px solid rgba(0,0,0,1);
+}
+.v0_151 {
+  width: 32px;
+  height: 32px;
+  background: url("../assets/figma-export/v0_151.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 32px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+.v0_152 {
+  width: 24px;
+  height: 24px;
+  background: url("../assets/figma-export/v0_152.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  overflow: hidden;
+}
+.v0_153 {
+  width: 2px;
+  height: 14px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 10px;
+}
+.v0_154 {
+  width: 132px;
+  height: 32px;
+  background: rgba(0,0,0,1);
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v0_155 {
+  width: 10px;
+  height: 10px;
+  background: url("../assets/figma-export/v0_155.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  border: 5px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.v0_156 {
+  width: 142px;
+  height: 32px;
+  background: rgba(0,0,0,1);
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v0_157 {
+  width: 126px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-family: Inter Tight;
+  font-weight: Regular;
+  font-size: 13px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_158 {
+  width: 10px;
+  height: 10px;
+  background: url("../assets/figma-export/v0_158.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 5px;
+  left: 43px;
+  border: 5px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.v0_159 {
+  width: 358px;
+  height: 59px;
+  background: rgba(255,255,255,1);
+  padding: 14px 46px;
+  margin: 24px;
+  opacity: 1;
+  position: absolute;
+  top: 561px;
+  left: 555px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_160 {
+  width: 224px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 14px;
+  left: 46px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_161 {
+  width: 18px;
+  height: 18px;
+  background: url("../assets/figma-export/v0_161.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 38px;
+  left: 312px;
+  transform: rotate(-90deg);
+  overflow: hidden;
+}
+.v0_162 {
+  width: 16px;
+  height: 16px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+}
+.v0_163 {
+  width: 178px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 204px;
+  left: 1079px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_164 {
+  width: 230px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 265px;
+  left: 1053px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_165 {
+  width: 250px;
+  height: 2px;
+  background: url("../assets/figma-export/v0_165.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 323px;
+  left: 1041px;
+  border: 0px solid rgba(241,240,239,1);
+  overflow: hidden;
+}
+.v0_166 {
+  width: 106px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 366px;
+  left: 1115px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_167 {
+  width: 214px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 429px;
+  left: 1061px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_168 {
+  width: 250px;
+  height: 2px;
+  background: url("../assets/figma-export/v0_168.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 485px;
+  left: 1041px;
+  border: 0px solid rgba(241,240,239,1);
+  overflow: hidden;
+}
+.v0_169 {
+  width: 220px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 528px;
+  left: 1058px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_170 {
+  width: 234px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 592px;
+  left: 1051px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_171 {
+  width: 100%;
+  height: 1018px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 3998px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_172 {
+  width: 100%;
+  height: 671px;
+  background: url("../assets/figma-export/v0_172.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 110px;
+  overflow: hidden;
+}
+.v0_173 {
+  width: 100%;
+  height: 234px;
+  background: rgba(30,47,34,1);
+  opacity: 1;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_174 {
+  width: 522px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 55px;
+  left: 49px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_175 {
+  width: 180px;
+  height: 180px;
+  background: url("../assets/figma-export/v0_175.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1019px;
+  overflow: hidden;
+}
+.v0_176 {
+  width: 180px;
+  height: 180px;
+  background: url("../assets/figma-export/v0_176.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_177 {
+  width: 180px;
+  height: 180px;
+  background: url("../assets/figma-export/v0_177.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_178 {
+  width: 180px;
+  height: 180px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.v0_179 {
+  width: 16px;
+  height: 14px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 42px;
+  left: 20px;
+}
+.v0_180 {
+  width: 9px;
+  height: 10px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 39px;
+  left: 32px;
+}
+.v0_181 {
+  width: 12px;
+  height: 10px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 32px;
+  left: 36px;
+}
+.v0_182 {
+  width: 7px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 46px;
+}
+.v0_183 {
+  width: 8px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 23px;
+  left: 52px;
+}
+.v0_184 {
+  width: 7px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 21px;
+  left: 59px;
+}
+.v0_185 {
+  width: 10px;
+  height: 16px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 67px;
+}
+.v0_186 {
+  width: 2px;
+  height: 2px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 24px;
+  left: 79px;
+}
+.v0_187 {
+  width: 12px;
+  height: 15px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 94px;
+}
+.v0_188 {
+  width: 7px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 19px;
+  left: 108px;
+}
+.v0_189 {
+  width: 8px;
+  height: 14px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 17px;
+  left: 115px;
+}
+.v0_190 {
+  width: 8px;
+  height: 13px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 119px;
+}
+.v0_191 {
+  width: 9px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 124px;
+}
+.v0_192 {
+  width: 11px;
+  height: 14px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 29px;
+  left: 132px;
+}
+.v0_193 {
+  width: 13px;
+  height: 11px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 37px;
+  left: 138px;
+}
+.v0_194 {
+  width: 8px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 47px;
+  left: 143px;
+}
+.v0_195 {
+  width: 2px;
+  height: 2px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 57px;
+  left: 146px;
+}
+.v0_196 {
+  width: 15px;
+  height: 12px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 66px;
+  left: 151px;
+}
+.v0_197 {
+  width: 15px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 78px;
+  left: 154px;
+}
+.v0_198 {
+  width: 15px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 85px;
+  left: 155px;
+}
+.v0_199 {
+  width: 9px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 91px;
+  left: 154px;
+}
+.v0_200 {
+  width: 9px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 101px;
+  left: 153px;
+}
+.v0_201 {
+  width: 14px;
+  height: 11px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 109px;
+  left: 149px;
+}
+.v0_202 {
+  width: 9px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 118px;
+  left: 145px;
+}
+.v0_203 {
+  width: 15px;
+  height: 10px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 126px;
+  left: 140px;
+}
+.v0_204 {
+  width: 12px;
+  height: 12px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 133px;
+  left: 135px;
+}
+.v0_205 {
+  width: 8px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 138px;
+  left: 130px;
+}
+.v0_206 {
+  width: 2px;
+  height: 2px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 142px;
+  left: 126px;
+}
+.v0_207 {
+  width: 10px;
+  height: 15px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 148px;
+  left: 113px;
+}
+.v0_208 {
+  width: 7px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 152px;
+  left: 104px;
+}
+.v0_209 {
+  width: 7px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 154px;
+  left: 96px;
+}
+.v0_210 {
+  width: 9px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 154px;
+  left: 85px;
+}
+.v0_211 {
+  width: 7px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 154px;
+  left: 77px;
+}
+.v0_212 {
+  width: 7px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 152px;
+  left: 69px;
+}
+.v0_213 {
+  width: 2px;
+  height: 2px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 150px;
+  left: 67px;
+}
+.v0_214 {
+  width: 13px;
+  height: 14px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 145px;
+  left: 46px;
+}
+.v0_215 {
+  width: 10px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 41px;
+}
+.v0_216 {
+  width: 9px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 133px;
+  left: 35px;
+}
+.v0_217 {
+  width: 15px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 127px;
+  left: 23px;
+}
+.v0_218 {
+  width: 9px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 121px;
+  left: 25px;
+}
+.v0_219 {
+  width: 9px;
+  height: 7px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 114px;
+  left: 21px;
+}
+.v0_220 {
+  width: 9px;
+  height: 6px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 107px;
+  left: 19px;
+}
+.v0_221 {
+  width: 14px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 102px;
+  left: 12px;
+}
+.v0_222 {
+  width: 9px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 92px;
+  left: 16px;
+}
+.v0_223 {
+  width: 9px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 81px;
+  left: 15px;
+}
+.v0_224 {
+  width: 9px;
+  height: 7px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 72px;
+  left: 17px;
+}
+.v0_225 {
+  width: 14px;
+  height: 7px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 65px;
+  left: 13px;
+}
+.v0_226 {
+  width: 2px;
+  height: 2px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 64px;
+  left: 28px;
+}
+.v0_227 {
+  width: 57px;
+  height: 51px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 64px;
+  left: 61px;
+}
+.v0_228 {
+  width: 49px;
+  height: 43px;
+  background: rgba(255,255,255,1);
+  opacity: 0.20000000298023224;
+  position: absolute;
+  top: 72px;
+  left: 81px;
+}
+.v0_229 {
+  width: 49px;
+  height: 43px;
+  background: rgba(255,255,255,1);
+  opacity: 0.20000000298023224;
+  position: absolute;
+  top: 72px;
+  left: 49px;
+}
+.v0_230 {
+  width: 100%;
+  height: 291px;
+  background: rgba(30,47,34,1);
+  opacity: 1;
+  position: absolute;
+  top: 304px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_231 {
+  width: 202px;
+  height: 259px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_232 {
+  width: 32px;
+  color: rgba(126,190,197,1);
+  position: absolute;
+  top: 60px;
+  left: 85px;
+  font-family: Inter Tight;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_233 {
+  width: 156px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 109px;
+  left: 23px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_234 {
+  width: 30px;
+  height: 30px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 192px;
+  left: 86px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_235 {
+  width: 20px;
+  height: 20px;
+  background: url("../assets/figma-export/v0_235.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 5px;
+  overflow: hidden;
+}
+.v0_236 {
+  width: 5px;
+  height: 9px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 8px;
+}
+.v0_237 {
+  width: 33px;
+  height: 32px;
+  background: url("../assets/figma-export/v0_237.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 91px;
+  left: 85px;
+  overflow: hidden;
+}
+.v0_238 {
+  width: 33px;
+  height: 26px;
+  background: rgba(126,190,197,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+}
+.v0_239 {
+  width: 202px;
+  height: 259px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 286px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_240 {
+  width: 36px;
+  color: rgba(126,190,197,1);
+  position: absolute;
+  top: 60px;
+  left: 83px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_241 {
+  width: 129px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 109px;
+  left: 36px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_242 {
+  width: 30px;
+  height: 30px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 192px;
+  left: 86px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_243 {
+  width: 20px;
+  height: 20px;
+  background: url("../assets/figma-export/v0_243.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 5px;
+  overflow: hidden;
+}
+.v0_244 {
+  width: 5px;
+  height: 9px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 8px;
+}
+.v0_245 {
+  width: 33px;
+  height: 32px;
+  background: url("../assets/figma-export/v0_245.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 91px;
+  left: 82px;
+  overflow: hidden;
+}
+.v0_246 {
+  width: 33px;
+  height: 26px;
+  background: rgba(126,190,197,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+}
+.v0_247 {
+  width: 202px;
+  height: 259px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 523px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_248 {
+  width: 40px;
+  color: rgba(126,190,197,1);
+  position: absolute;
+  top: 60px;
+  left: 81px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_249 {
+  width: 139px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 109px;
+  left: 31px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_250 {
+  width: 30px;
+  height: 30px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 192px;
+  left: 86px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_251 {
+  width: 20px;
+  height: 20px;
+  background: url("../assets/figma-export/v0_251.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 5px;
+  overflow: hidden;
+}
+.v0_252 {
+  width: 5px;
+  height: 9px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 8px;
+}
+.v0_253 {
+  width: 33px;
+  height: 32px;
+  background: url("../assets/figma-export/v0_253.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 91px;
+  left: 85px;
+  overflow: hidden;
+}
+.v0_254 {
+  width: 33px;
+  height: 26px;
+  background: rgba(126,190,197,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+}
+.v0_255 {
+  width: 202px;
+  height: 260px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 760px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_256 {
+  width: 28px;
+  color: rgba(126,190,197,1);
+  position: absolute;
+  top: 60px;
+  left: 87px;
+  font-family: Inter Tight;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_257 {
+  width: 150px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 121px;
+  left: 25px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_258 {
+  width: 30px;
+  height: 30px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 194px;
+  left: 86px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_259 {
+  width: 20px;
+  height: 20px;
+  background: url("../assets/figma-export/v0_259.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 5px;
+  overflow: hidden;
+}
+.v0_260 {
+  width: 5px;
+  height: 9px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 8px;
+}
+.v0_261 {
+  width: 33px;
+  height: 32px;
+  background: url("../assets/figma-export/v0_261.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 92px;
+  left: 84px;
+  overflow: hidden;
+}
+.v0_262 {
+  width: 33px;
+  height: 26px;
+  background: rgba(126,190,197,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+}
+.v0_263 {
+  width: 203px;
+  height: 260px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 996px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_264 {
+  width: 33px;
+  height: 32px;
+  background: url("../assets/figma-export/v0_264.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 92px;
+  left: 85px;
+  overflow: hidden;
+}
+.v0_265 {
+  width: 33px;
+  height: 26px;
+  background: rgba(126,190,197,1);
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+}
+.v0_266 {
+  width: 148px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 123px;
+  left: 27px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_267 {
+  width: 31px;
+  height: 30px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 194px;
+  left: 86px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_268 {
+  width: 20px;
+  height: 20px;
+  background: url("../assets/figma-export/v0_268.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 6px;
+  overflow: hidden;
+}
+.v0_269 {
+  width: 5px;
+  height: 9px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 8px;
+}
+.v0_270 {
+  width: 100%;
+  height: 107px;
+  background: rgba(30,47,34,1);
+  opacity: 1;
+  position: absolute;
+  top: 564px;
+  left: 0px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_271 {
+  width: 627px;
+  color: url("../assets/figma-export/v0_271.png");
+  position: absolute;
+  top: 28px;
+  left: 312px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_272 {
+  width: 25px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 645px;
+  left: 110px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_273 {
+  width: 25px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 732px;
+  left: 110px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_274 {
+  width: 25px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 819px;
+  left: 110px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_275 {
+  width: 28px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 906px;
+  left: 110px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_276 {
+  width: 25px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 993px;
+  left: 110px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_277 {
+  width: 31px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 645px;
+  left: 549px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_278 {
+  width: 25px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 732px;
+  left: 549px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_279 {
+  width: 31px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 819px;
+  left: 549px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_280 {
+  width: 31px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 906px;
+  left: 549px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_281 {
+  width: 31px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 993px;
+  left: 549px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_282 {
+  width: 23px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 645px;
+  left: 989px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_283 {
+  width: 25px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 732px;
+  left: 989px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_284 {
+  width: 100%;
+  height: 122px;
+  background: url("../assets/figma-export/v0_284.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 763px;
+  left: 110px;
+  overflow: hidden;
+}
+.v0_285 {
+  width: 151px;
+  color: rgba(30,47,34,1);
+  position: absolute;
+  top: 0px;
+  left: 47px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_286 {
+  width: 35px;
+  height: 35px;
+  background: url("../assets/figma-export/v0_286.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  left: 335px;
+  overflow: hidden;
+}
+.v0_287 {
+  width: 9px;
+  height: 16px;
+  background: rgba(204,204,204,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 14px;
+}
+.v0_288 {
+  width: 370px;
+  height: 2px;
+  background: url("../assets/figma-export/v0_288.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 59px;
+  left: 0px;
+  border: 0px solid rgba(241,240,239,1);
+  overflow: hidden;
+}
+.v0_289 {
+  width: 183px;
+  color: rgba(30,47,34,1);
+  position: absolute;
+  top: 87px;
+  left: 47px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_290 {
+  width: 35px;
+  height: 35px;
+  background: url("../assets/figma-export/v0_290.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 122px;
+  left: 335px;
+  overflow: hidden;
+}
+.v0_291 {
+  width: 9px;
+  height: 16px;
+  background: rgba(204,204,204,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 14px;
+}
+.v0_292 {
+  width: 267px;
+  color: rgba(30,47,34,1);
+  position: absolute;
+  top: 0px;
+  left: 486px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_293 {
+  width: 35px;
+  height: 35px;
+  background: url("../assets/figma-export/v0_293.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  left: 775px;
+  overflow: hidden;
+}
+.v0_294 {
+  width: 9px;
+  height: 16px;
+  background: rgba(204,204,204,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 14px;
+}
+.v0_295 {
+  width: 370px;
+  height: 2px;
+  background: url("../assets/figma-export/v0_295.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 59px;
+  left: 439px;
+  border: 0px solid rgba(241,240,239,1);
+  overflow: hidden;
+}
+.v0_296 {
+  width: 211px;
+  color: rgba(30,47,34,1);
+  position: absolute;
+  top: 87px;
+  left: 486px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_297 {
+  width: 35px;
+  height: 35px;
+  background: url("../assets/figma-export/v0_297.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 122px;
+  left: 775px;
+  overflow: hidden;
+}
+.v0_298 {
+  width: 9px;
+  height: 16px;
+  background: rgba(204,204,204,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 14px;
+}
+.v0_299 {
+  width: 164px;
+  color: rgba(30,47,34,1);
+  position: absolute;
+  top: 0px;
+  left: 925px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_300 {
+  width: 35px;
+  height: 35px;
+  background: url("../assets/figma-export/v0_300.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  left: 1214px;
+  overflow: hidden;
+}
+.v0_301 {
+  width: 9px;
+  height: 16px;
+  background: rgba(204,204,204,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 14px;
+}
+.v0_302 {
+  width: 370px;
+  height: 2px;
+  background: url("../assets/figma-export/v0_302.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 59px;
+  left: 878px;
+  border: 0px solid rgba(241,240,239,1);
+  overflow: hidden;
+}
+.v0_303 {
+  width: 209px;
+  color: rgba(30,47,34,1);
+  position: absolute;
+  top: 87px;
+  left: 925px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_304 {
+  width: 35px;
+  height: 35px;
+  background: url("../assets/figma-export/v0_304.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 122px;
+  left: 1214px;
+  overflow: hidden;
+}
+.v0_305 {
+  width: 9px;
+  height: 16px;
+  background: rgba(204,204,204,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 14px;
+}
+.v0_306 {
+  width: 25px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 819px;
+  left: 989px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_307 {
+  width: 28px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 906px;
+  left: 989px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_308 {
+  width: 100%;
+  height: 772px;
+  background: rgba(255,255,255,1);
+  margin: 67px;
+  opacity: 1;
+  position: absolute;
+  top: 5016px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_309 {
+  width: 705px;
+  height: 90px;
+  background: url("../assets/figma-export/v0_309.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 10px 14px;
+  margin: 4px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 382px;
+  overflow: hidden;
+}
+.v0_310 {
+  width: 425px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 70px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_311 {
+  width: 248px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 30px;
+  left: 443px;
+  font-family: LeoHand;
+  font-weight: Light;
+  font-size: 86px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_312 {
+  width: 100%;
+  height: 489px;
+  background: linear-gradient(rgba(255,255,255,1), rgba(230,239,231,1));
+  padding: 32px 32px;
+  margin: 36px;
+  opacity: 1;
+  position: absolute;
+  top: 157px;
+  left: 89px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_313 {
+  width: 100%;
+  height: 194px;
+  background: url("../assets/figma-export/v0_313.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 36px;
+  opacity: 1;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  overflow: hidden;
+}
+.v0_314 {
+  width: 385px;
+  height: 194px;
+  background: rgba(255,255,255,1);
+  padding: 24px 32px;
+  margin: 18px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_315 {
+  width: 321px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_316 {
+  width: 321px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 82px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_317 {
+  width: 321px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 122px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_318 {
+  width: 385px;
+  height: 194px;
+  background: rgba(255,255,255,1);
+  padding: 24px 32px;
+  margin: 18px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 421px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_319 {
+  width: 321px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_320 {
+  width: 321px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 82px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_321 {
+  width: 321px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 122px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_322 {
+  width: 385px;
+  height: 194px;
+  background: rgba(255,255,255,1);
+  padding: 24px 32px;
+  margin: 18px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 842px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_323 {
+  width: 321px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_324 {
+  width: 321px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 82px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_325 {
+  width: 321px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 122px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_326 {
+  width: 100%;
+  height: 194px;
+  background: url("../assets/figma-export/v0_326.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 36px;
+  opacity: 1;
+  position: absolute;
+  top: 262px;
+  left: 32px;
+  overflow: hidden;
+}
+.v0_327 {
+  width: 385px;
+  height: 194px;
+  background: rgba(255,255,255,1);
+  padding: 24px 32px;
+  margin: 18px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_328 {
+  width: 321px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_329 {
+  width: 321px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 82px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_330 {
+  width: 321px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 122px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_331 {
+  width: 385px;
+  height: 194px;
+  background: rgba(255,255,255,1);
+  padding: 24px 32px;
+  margin: 18px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 421px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_332 {
+  width: 321px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_333 {
+  width: 321px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 82px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_334 {
+  width: 321px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 122px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_335 {
+  width: 385px;
+  height: 194px;
+  background: rgba(255,255,255,1);
+  padding: 24px 32px;
+  margin: 18px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 842px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_336 {
+  width: 321px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_337 {
+  width: 321px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 82px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_338 {
+  width: 321px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 122px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_339 {
+  width: 100%;
+  height: 736px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 5788px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_340 {
+  width: 385px;
+  height: 458px;
+  background: url("../assets/figma-export/v0_340.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 1px;
+  opacity: 1;
+  position: absolute;
+  top: 71px;
+  left: 996px;
+  overflow: hidden;
+}
+.v0_341 {
+  width: 385px;
+  height: 243px;
+  background: rgba(255,255,255,1);
+  padding: 24px 32px;
+  margin: 18px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_342 {
+  width: 101px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_343 {
+  width: 321px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 60px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_344 {
+  width: 321px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 100px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_345 {
+  width: 385px;
+  height: 106px;
+  background: rgba(255,255,255,1);
+  padding: 24px 32px;
+  margin: 18px;
+  opacity: 1;
+  position: absolute;
+  top: 244px;
+  left: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_346 {
+  width: 128px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_347 {
+  width: 321px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 60px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_348 {
+  width: 385px;
+  height: 106px;
+  background: rgba(255,255,255,1);
+  padding: 24px 32px;
+  margin: 18px;
+  opacity: 1;
+  position: absolute;
+  top: 352px;
+  left: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_349 {
+  width: 174px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 24px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_350 {
+  width: 321px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 60px;
+  left: 32px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_351 {
+  width: 43px;
+  height: 439px;
+  background: url("../assets/figma-export/v0_351.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 95px;
+  left: 935px;
+  overflow: hidden;
+}
+.v0_352 {
+  width: 43px;
+  height: 43px;
+  background: rgba(70,109,74,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 2000px;
+  border-top-right-radius: 2000px;
+  border-bottom-left-radius: 2000px;
+  border-bottom-right-radius: 2000px;
+  overflow: hidden;
+}
+.v0_353 {
+  width: 21px;
+  height: 10px;
+  background: url("../assets/figma-export/v0_353.png");
+  opacity: 1;
+  position: absolute;
+  top: 14px;
+  left: 11px;
+  border: 2px solid rgba(255,255,255,1);
+}
+.v0_354 {
+  width: 43px;
+  height: 43px;
+  background: rgba(117,117,117,0.6000000238418579);
+  opacity: 1;
+  position: absolute;
+  top: 220px;
+  left: 0px;
+  border-top-left-radius: 2000px;
+  border-top-right-radius: 2000px;
+  border-bottom-left-radius: 2000px;
+  border-bottom-right-radius: 2000px;
+  overflow: hidden;
+}
+.v0_355 {
+  width: 21px;
+  height: 10px;
+  background: url("../assets/figma-export/v0_355.png");
+  opacity: 1;
+  position: absolute;
+  top: 29px;
+  left: 11px;
+  border: 2px solid rgba(255,255,255,1);
+}
+.v0_356 {
+  width: 43px;
+  height: 43px;
+  background: rgba(117,117,117,0.6000000238418579);
+  opacity: 1;
+  position: absolute;
+  top: 334px;
+  left: 0px;
+  border-top-left-radius: 2000px;
+  border-top-right-radius: 2000px;
+  border-bottom-left-radius: 2000px;
+  border-bottom-right-radius: 2000px;
+  overflow: hidden;
+}
+.v0_357 {
+  width: 21px;
+  height: 10px;
+  background: url("../assets/figma-export/v0_357.png");
+  opacity: 1;
+  position: absolute;
+  top: 29px;
+  left: 11px;
+  border: 2px solid rgba(255,255,255,1);
+}
+.v0_358 {
+  width: 793px;
+  height: 594px;
+  background: rgba(30,47,34,1);
+  opacity: 1;
+  position: absolute;
+  top: 69px;
+  left: 89px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_359 {
+  width: 432px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 392px;
+  left: 33px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_360 {
+  width: 794px;
+  height: 242px;
+  background: url("../assets/figma-export/v0_360.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 76px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_361 {
+  width: 119px;
+  height: 119px;
+  background: url("../assets/figma-export/v0_361.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 246px;
+  left: 29px;
+  overflow: hidden;
+}
+.v0_362 {
+  width: 113px;
+  height: 113px;
+  background: url("../assets/figma-export/v0_362.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  overflow: hidden;
+}
+.v0_363 {
+  width: 113px;
+  height: 113px;
+  background: url("../assets/figma-export/v0_363.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_364 {
+  width: 113px;
+  height: 113px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.v0_365 {
+  width: 10px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 26px;
+  left: 12px;
+}
+.v0_366 {
+  width: 5px;
+  height: 6px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+.v0_367 {
+  width: 7px;
+  height: 6px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 23px;
+}
+.v0_368 {
+  width: 4px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 17px;
+  left: 29px;
+}
+.v0_369 {
+  width: 5px;
+  height: 6px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 14px;
+  left: 32px;
+}
+.v0_370 {
+  width: 5px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 13px;
+  left: 37px;
+}
+.v0_371 {
+  width: 6px;
+  height: 10px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 42px;
+}
+.v0_372 {
+  width: 1px;
+  height: 1px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 49px;
+}
+.v0_373 {
+  width: 7px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 6px;
+  left: 59px;
+}
+.v0_374 {
+  width: 4px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 68px;
+}
+.v0_375 {
+  width: 5px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 72px;
+}
+.v0_376 {
+  width: 5px;
+  height: 8px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 75px;
+}
+.v0_377 {
+  width: 5px;
+  height: 6px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 18px;
+  left: 78px;
+}
+.v0_378 {
+  width: 7px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 18px;
+  left: 83px;
+}
+.v0_379 {
+  width: 8px;
+  height: 7px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 23px;
+  left: 87px;
+}
+.v0_380 {
+  width: 5px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 29px;
+  left: 89px;
+}
+.v0_381 {
+  width: 1px;
+  height: 1px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 36px;
+  left: 91px;
+}
+.v0_382 {
+  width: 9px;
+  height: 7px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 41px;
+  left: 94px;
+}
+.v0_383 {
+  width: 9px;
+  height: 3px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 49px;
+  left: 96px;
+}
+.v0_384 {
+  width: 9px;
+  height: 3px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 53px;
+  left: 97px;
+}
+.v0_385 {
+  width: 5px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 57px;
+  left: 97px;
+}
+.v0_386 {
+  width: 5px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 63px;
+  left: 96px;
+}
+.v0_387 {
+  width: 8px;
+  height: 7px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 68px;
+  left: 94px;
+}
+.v0_388 {
+  width: 6px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 74px;
+  left: 91px;
+}
+.v0_389 {
+  width: 9px;
+  height: 6px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 79px;
+  left: 88px;
+}
+.v0_390 {
+  width: 8px;
+  height: 7px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 84px;
+  left: 85px;
+}
+.v0_391 {
+  width: 5px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 87px;
+  left: 81px;
+}
+.v0_392 {
+  width: 1px;
+  height: 1px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 89px;
+  left: 79px;
+}
+.v0_393 {
+  width: 6px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 93px;
+  left: 71px;
+}
+.v0_394 {
+  width: 4px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 95px;
+  left: 65px;
+}
+.v0_395 {
+  width: 4px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 96px;
+  left: 60px;
+}
+.v0_396 {
+  width: 6px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 97px;
+  left: 53px;
+}
+.v0_397 {
+  width: 4px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 96px;
+  left: 48px;
+}
+.v0_398 {
+  width: 4px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 95px;
+  left: 43px;
+}
+.v0_399 {
+  width: 1px;
+  height: 1px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 94px;
+  left: 42px;
+}
+.v0_400 {
+  width: 8px;
+  height: 9px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 91px;
+  left: 29px;
+}
+.v0_401 {
+  width: 6px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 87px;
+  left: 26px;
+}
+.v0_402 {
+  width: 5px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 83px;
+  left: 22px;
+}
+.v0_403 {
+  width: 9px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 79px;
+  left: 14px;
+}
+.v0_404 {
+  width: 5px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 75px;
+  left: 16px;
+}
+.v0_405 {
+  width: 5px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 72px;
+  left: 13px;
+}
+.v0_406 {
+  width: 5px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 67px;
+  left: 11px;
+}
+.v0_407 {
+  width: 8px;
+  height: 3px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 64px;
+  left: 7px;
+}
+.v0_408 {
+  width: 5px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 58px;
+  left: 10px;
+}
+.v0_409 {
+  width: 5px;
+  height: 5px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 51px;
+  left: 9px;
+}
+.v0_410 {
+  width: 6px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 45px;
+  left: 10px;
+}
+.v0_411 {
+  width: 9px;
+  height: 4px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 8px;
+}
+.v0_412 {
+  width: 1px;
+  height: 1px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 17px;
+}
+.v0_413 {
+  width: 36px;
+  height: 32px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 40px;
+  left: 38px;
+}
+.v0_414 {
+  width: 30px;
+  height: 27px;
+  background: rgba(255,255,255,1);
+  opacity: 0.20000000298023224;
+  position: absolute;
+  top: 45px;
+  left: 50px;
+}
+.v0_415 {
+  width: 30px;
+  height: 27px;
+  background: rgba(255,255,255,1);
+  opacity: 0.20000000298023224;
+  position: absolute;
+  top: 45px;
+  left: 31px;
+}
+.v0_416 {
+  width: 100%;
+  height: 691px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 6524px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_417 {
+  width: 194px;
+  height: 214px;
+  background: url("../assets/figma-export/v0_417.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 279px;
+  left: 110px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.v0_418 {
+  width: 194px;
+  height: 214px;
+  background: url("../assets/figma-export/v0_418.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_419 {
+  width: 40px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 29px;
+  left: 714px;
+  font-family: Inter Tight;
+  font-weight: Black;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_420 {
+  width: 722px;
+  height: 207px;
+  background: url("../assets/figma-export/v0_420.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 105px;
+  left: 373px;
+  overflow: hidden;
+}
+.v0_421 {
+  width: 532px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 121px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 70px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_422 {
+  width: 650px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 91px;
+  left: 63px;
+  font-family: LeoHand;
+  font-weight: Light;
+  font-size: 86px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_423 {
+  width: 701px;
+  color: rgba(30,47,34,1);
+  position: absolute;
+  top: 327px;
+  left: 384px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_424 {
+  width: 133px;
+  color: rgba(111,110,110,1);
+  position: absolute;
+  top: 500px;
+  left: 668px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_425 {
+  width: 194px;
+  height: 214px;
+  background: url("../assets/figma-export/v0_425.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 378px;
+  left: 1165px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.v0_426 {
+  width: 194px;
+  height: 214px;
+  background: url("../assets/figma-export/v0_426.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_427 {
+  width: 194px;
+  height: 214px;
+  background: url("../assets/figma-export/v0_427.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.v0_428 {
+  width: 246px;
+  height: 138px;
+  background: url("../assets/figma-export/v0_428.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 539px;
+  left: 612px;
+  overflow: hidden;
+}
+.v0_429 {
+  width: 100%;
+  height: 541px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 7215px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_430 {
+  width: 100%;
+  height: 408px;
+  background: rgba(30,47,34,1);
+  opacity: 1;
+  position: absolute;
+  top: 66px;
+  left: 177px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_431 {
+  width: 754px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 92px;
+  left: 181px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_432 {
+  width: 640px;
+  color: rgba(230,239,231,0.6000000238418579);
+  position: absolute;
+  top: 194px;
+  left: 238px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_433 {
+  width: 232px;
+  height: 60px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 260px;
+  left: 310px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v0_434 {
+  width: 181px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 15px;
+  left: 26px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_435 {
+  width: 247px;
+  height: 60px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 260px;
+  left: 557px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v0_436 {
+  width: 188px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 19px;
+  left: 30px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_437 {
+  width: 100%;
+  height: 840px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 7756px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_438 {
+  width: 100%;
+  height: 87px;
+  background: url("../assets/figma-export/v0_438.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 36px;
+  left: 110px;
+  overflow: hidden;
+}
+.v0_439 {
+  width: 351px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1px;
+  left: 320px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 70px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_440 {
+  width: 278px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 8px;
+  left: 693px;
+  font-family: LeoHand;
+  font-weight: Light;
+  font-size: 86px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_441 {
+  width: 100%;
+  height: 594px;
+  background: url("../assets/figma-export/v0_441.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 157px;
+  left: 110px;
+  overflow: hidden;
+}
+.v0_442 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_442.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1059px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_443 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_443.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_444 {
+  width: 99px;
+  height: 17px;
+  background: url("../assets/figma-export/v0_444.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_445 {
+  width: 344px;
+  height: 63px;
+  background: url("../assets/figma-export/v0_445.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_446 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_446.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 632px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_447 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_447.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_448 {
+  width: 99px;
+  height: 17px;
+  background: url("../assets/figma-export/v0_448.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_449 {
+  width: 363px;
+  height: 63px;
+  background: url("../assets/figma-export/v0_449.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_450 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_450.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 206px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_451 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_451.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_452 {
+  width: 99px;
+  height: 17px;
+  background: url("../assets/figma-export/v0_452.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_453 {
+  width: 361px;
+  height: 63px;
+  background: url("../assets/figma-export/v0_453.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_454 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_454.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_455 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_455.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_456 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_456.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_457 {
+  width: 16px;
+  color: rgba(241,241,241,1);
+  position: absolute;
+  top: 338px;
+  left: 19px;
+  font-family: Inter Tight;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_458 {
+  width: 24px;
+  height: 24px;
+  background: url("../assets/figma-export/v0_458.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 335px;
+  left: 41px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_459 {
+  width: 99px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_460 {
+  width: 313px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 23px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_461 {
+  width: 20px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 44px;
+  left: 320px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_462 {
+  width: 32px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 54px;
+  left: 314px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_463 {
+  width: 28px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 78px;
+  left: 316px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_464 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_464.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 426px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_465 {
+  width: 364px;
+  height: 380px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_466 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_466.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_467 {
+  width: 16px;
+  color: rgba(241,241,241,1);
+  position: absolute;
+  top: 338px;
+  left: 20px;
+  font-family: Inter Tight;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_468 {
+  width: 24px;
+  height: 24px;
+  background: url("../assets/figma-export/v0_468.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 335px;
+  left: 41px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_469 {
+  width: 99px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_470 {
+  width: 364px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 23px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_471 {
+  width: 20px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 44px;
+  left: 320px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_472 {
+  width: 32px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 54px;
+  left: 314px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_473 {
+  width: 28px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 78px;
+  left: 316px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_474 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_474.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 853px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_475 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_475.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_476 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_476.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_477 {
+  width: 16px;
+  color: rgba(241,241,241,1);
+  position: absolute;
+  top: 338px;
+  left: 20px;
+  font-family: Inter Tight;
+  font-weight: Regular;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_478 {
+  width: 24px;
+  height: 24px;
+  background: url("../assets/figma-export/v0_478.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 335px;
+  left: 41px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_479 {
+  width: 99px;
+  color: rgba(70,109,74,1);
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_480 {
+  width: 321px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 23px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_481 {
+  width: 20px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 44px;
+  left: 320px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_482 {
+  width: 32px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 54px;
+  left: 314px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_483 {
+  width: 28px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 78px;
+  left: 316px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_484 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_484.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1279px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_485 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_485.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_486 {
+  width: 99px;
+  height: 17px;
+  background: url("../assets/figma-export/v0_486.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_487 {
+  width: 281px;
+  height: 98px;
+  background: url("../assets/figma-export/v0_487.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_488 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_488.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1706px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_489 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_489.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_490 {
+  width: 99px;
+  height: 17px;
+  background: url("../assets/figma-export/v0_490.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_491 {
+  width: 348px;
+  height: 63px;
+  background: url("../assets/figma-export/v0_491.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_492 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_492.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 2133px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_493 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_493.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_494 {
+  width: 99px;
+  height: 17px;
+  background: url("../assets/figma-export/v0_494.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_495 {
+  width: 342px;
+  height: 63px;
+  background: url("../assets/figma-export/v0_495.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_496 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_496.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 2559px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_497 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_497.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_498 {
+  width: 99px;
+  height: 17px;
+  background: url("../assets/figma-export/v0_498.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_499 {
+  width: 344px;
+  height: 63px;
+  background: url("../assets/figma-export/v0_499.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_500 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_500.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 2986px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_501 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_501.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_502 {
+  width: 99px;
+  height: 17px;
+  background: url("../assets/figma-export/v0_502.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_503 {
+  width: 363px;
+  height: 63px;
+  background: url("../assets/figma-export/v0_503.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_504 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_504.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 3413px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_505 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_505.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_506 {
+  width: 99px;
+  height: 17px;
+  background: url("../assets/figma-export/v0_506.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_507 {
+  width: 361px;
+  height: 63px;
+  background: url("../assets/figma-export/v0_507.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_508 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_508.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 3839px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_509 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_509.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_510 {
+  width: 99px;
+  height: 17px;
+  background: url("../assets/figma-export/v0_510.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_511 {
+  width: 312px;
+  height: 63px;
+  background: url("../assets/figma-export/v0_511.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_512 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_512.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 4266px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_513 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_513.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_514 {
+  width: 99px;
+  height: 17px;
+  background: url("../assets/figma-export/v0_514.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_515 {
+  width: 364px;
+  height: 63px;
+  background: url("../assets/figma-export/v0_515.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_516 {
+  width: 396px;
+  height: 594px;
+  background: url("../assets/figma-export/v0_516.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 4693px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_517 {
+  width: 364px;
+  height: 380px;
+  background: url("../assets/figma-export/v0_517.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v0_518 {
+  width: 99px;
+  height: 17px;
+  background: url("../assets/figma-export/v0_518.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 418px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_519 {
+  width: 321px;
+  height: 63px;
+  background: url("../assets/figma-export/v0_519.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 457px;
+  left: 16px;
+  overflow: hidden;
+}
+.v0_520 {
+  width: 90px;
+  height: 90px;
+  background: rgba(0,0,0,1);
+  position: absolute;
+  top: 410px;
+  left: 1269px;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  overflow: hidden;
+}
+.v0_521 {
+  width: 35px;
+  height: 35px;
+  background: url("../assets/figma-export/v0_521.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 62px;
+  left: 27px;
+  overflow: hidden;
+}
+.v0_522 {
+  width: 9px;
+  height: 16px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 14px;
+}
+.v0_523 {
+  width: 90px;
+  height: 90px;
+  background: rgba(0,0,0,1);
+  position: absolute;
+  top: 410px;
+  left: 110px;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  overflow: hidden;
+}
+.v0_524 {
+  width: 35px;
+  height: 35px;
+  background: url("../assets/figma-export/v0_524.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 62px;
+  left: 27px;
+  overflow: hidden;
+}
+.v0_525 {
+  width: 9px;
+  height: 16px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 13px;
+}
+.v0_526 {
+  width: 100%;
+  height: 783px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 8596px;
+  left: 0px;
+  overflow: hidden;
+}
+.v0_527 {
+  width: 100%;
+  height: 419px;
+  background: rgba(241,240,239,1);
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  overflow: hidden;
+}
+.v0_528 {
+  width: 627px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 64px;
+  left: 50px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 70px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_529 {
+  width: 494px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 174px;
+  left: 50px;
+  font-family: LeoHand;
+  font-weight: Light;
+  font-size: 86px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_530 {
+  width: 256px;
+  height: 62px;
+  background: rgba(255,255,255,1);
+  padding: 14px 40px;
+  margin: 4px;
+  opacity: 1;
+  position: absolute;
+  top: 179px;
+  left: 1118px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_531 {
+  width: 176px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 14px;
+  left: 40px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: right;
+}
+.v0_532 {
+  width: 100%;
+  height: 324px;
+  background: rgba(241,240,239,1);
+  opacity: 1;
+  position: absolute;
+  top: 355px;
+  left: 20px;
+  overflow: hidden;
+}
+.v0_533 {
+  width: 77px;
+  color: rgba(4,10,22,1);
+  position: absolute;
+  top: 28px;
+  left: 52px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_534 {
+  width: 71px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 77px;
+  left: 52px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_535 {
+  width: 110px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 115px;
+  left: 52px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_536 {
+  width: 126px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 154px;
+  left: 52px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_537 {
+  width: 123px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 193px;
+  left: 52px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_538 {
+  width: 135px;
+  color: rgba(4,10,22,1);
+  position: absolute;
+  top: 28px;
+  left: 386px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_539 {
+  width: 142px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 76px;
+  left: 386px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_540 {
+  width: 84px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 115px;
+  left: 386px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_541 {
+  width: 117px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 153px;
+  left: 386px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_542 {
+  width: 141px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 193px;
+  left: 386px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_543 {
+  width: 143px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 232px;
+  left: 386px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_544 {
+  width: 121px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 271px;
+  left: 386px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_545 {
+  width: 157px;
+  color: rgba(4,10,22,1);
+  position: absolute;
+  top: 28px;
+  left: 753px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_546 {
+  width: 84px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 76px;
+  left: 753px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_547 {
+  width: 115px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 116px;
+  left: 753px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_548 {
+  width: 135px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 155px;
+  left: 753px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_549 {
+  width: 229px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 195px;
+  left: 753px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_550 {
+  width: 157px;
+  color: rgba(4,10,22,1);
+  position: absolute;
+  top: 28px;
+  left: 1119px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_551 {
+  width: 18px;
+  height: 18px;
+  background: rgba(102,102,102,1);
+  opacity: 1;
+  position: absolute;
+  top: 80px;
+  left: 1119px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+}
+.v0_552 {
+  width: 12px;
+  height: 12px;
+  background: url("../assets/figma-export/v0_552.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 3px;
+  overflow: hidden;
+}
+.v0_553 {
+  width: 6px;
+  height: 12px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 3px;
+}
+.v0_554 {
+  width: 76px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 77px;
+  left: 1145px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_555 {
+  width: 18px;
+  height: 18px;
+  background: rgba(102,102,102,1);
+  opacity: 1;
+  position: absolute;
+  top: 119px;
+  left: 1119px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+}
+.v0_556 {
+  width: 12px;
+  height: 12px;
+  background: url("../assets/figma-export/v0_556.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 3px;
+  overflow: hidden;
+}
+.v0_557 {
+  width: 11px;
+  height: 12px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 0px;
+}
+.v0_558 {
+  width: 94px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 115px;
+  left: 1145px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_559 {
+  width: 18px;
+  height: 18px;
+  background: rgba(102,102,102,1);
+  opacity: 1;
+  position: absolute;
+  top: 157px;
+  left: 1119px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  overflow: hidden;
+}
+.v0_560 {
+  width: 12px;
+  height: 12px;
+  background: url("../assets/figma-export/v0_560.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  left: 3px;
+  overflow: hidden;
+}
+.v0_561 {
+  width: 12px;
+  height: 12px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 0px;
+}
+.v0_562 {
+  width: 159px;
+  color: rgba(145,145,145,1);
+  position: absolute;
+  top: 153px;
+  left: 1145px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v0_563 {
+  width: 100%;
+  height: 103px;
+  background: rgba(241,240,239,1);
+  opacity: 1;
+  position: absolute;
+  top: 679px;
+  left: 20px;
+  overflow: hidden;
+}
+.v0_564 {
+  width: 100%;
+  height: 2px;
+  background: url("../assets/figma-export/v0_564.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 50px;
+  border: 0px solid rgba(0,0,0,0.10000000149011612);
+  overflow: hidden;
+}
+.v0_565 {
+  width: 388px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 54px;
+  left: 521px;
+  font-family: Inter Tight;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v0_566 {
+  width: 50px;
+  height: 50px;
+  background: url("../assets/figma-export/v0_566.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 751px;
+  left: 1375px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  overflow: hidden;
+}
+.v0_567 {
+  width: 50px;
+  height: 50px;
+  background: rgba(30,47,34,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v0_568 {
+  width: 20px;
+  height: 20px;
+  background: url("../assets/figma-export/v0_568.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  left: 15px;
+  overflow: hidden;
+}
+.v0_569 {
+  width: 8px;
+  height: 15px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 3px;
+  left: 6px;
+}
