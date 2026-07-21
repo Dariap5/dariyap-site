@@ -18,7 +18,9 @@
    сначала отправь пробную заявку сам и активируй. */
 const MAIL_ENDPOINT = 'https://formsubmit.co/ajax/4d834242d1d860d97e31cb423bfa9ffd';
 
-// Необязательно: таблица + сообщение в Telegram (см. apps-script.gs)
+/* Google-таблица + сообщение в Telegram. Туда же приходят уведомления
+   об оплате от ЮKassa, поэтому заявка и платёж лежат рядом.
+   Код скрипта и настройка — marathon/apps-script.gs и marathon/README.md. */
 const SHEET_ENDPOINT = '';   // https://script.google.com/macros/s/.../exec
 
 /* Оплата через ЮKassa. Ссылки берутся в кабинете Даши: конструктор
