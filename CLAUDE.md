@@ -2,17 +2,16 @@
 
 Статический лендинг (Даша Пайвина): `index.html` + `offer.html` + `privacy.html` + 6 страниц форматов в `formats/`. Никакого билд-шага, фреймворка или package.json — чистые HTML/CSS/JS, редактируется напрямую.
 
-## ⚠️ Деплой — ТОЛЬКО через rsync по SSH, НЕ через git
+## Деплой — автоматический через GitHub Actions при пуше в `main`
 
-Сайт живёт на VPS в `/var/www/dariyap-personal/` — это НЕ git-репозиторий на сервере, обычная папка со статикой, обслуживаемая nginx.
+У папки сайта — свой отдельный git-репозиторий (не путать с репозиторием `/Users/dariapaivina` целиком, который указывает на чужой проект `community-system`; этот `.git` лежит прямо в папке сайта и с тем репо не связан).
+
+`git push` в ветку `main` → workflow `.github/workflows/deploy.yml` сам делает `rsync --delete` в `/var/www/dariyap-personal/` на сервере, по отдельному ограниченному SSH-ключу (не тому, что у Даши), у которого через `rrsync -wo` нет доступа никуда кроме этой папки и нет шелл-доступа. Секреты `DEPLOY_SSH_KEY` / `DEPLOY_HOST` / `DEPLOY_USER` — в настройках репозитория на GitHub.
+
+Ручной путь (если Actions недоступен) остаётся прежним:
 
 ```bash
 ssh -i ~/.ssh/dariyap_deploy root@dariyap.ru   # логин root, ключ dariyap_deploy
-```
-
-Деплой — точечный rsync только изменённых файлов (не всей папки целиком, чтобы не задеть чужое):
-
-```bash
 cd "/Users/dariapaivina/Desktop/Личный сайт"
 rsync -avz -e "ssh -i ~/.ssh/dariyap_deploy" <файл1> <файл2> root@dariyap.ru:/var/www/dariyap-personal/ --relative
 ```
@@ -20,10 +19,6 @@ rsync -avz -e "ssh -i ~/.ssh/dariyap_deploy" <файл1> <файл2> root@dariya
 Перед реальной заливкой сначала `--dry-run` (`-n`), чтобы увидеть точный список файлов. После — проверить `curl -s -o /dev/null -w "%{http_code}" https://dariyap.ru/` (ждём 200).
 
 nginx-конфиг сайта: `/etc/nginx/sites-available/dariyap.ru` на сервере, `root /var/www/dariyap-personal;`.
-
-## ⚠️ Локальный git — НЕ используй `git add/commit/push` в этой папке
-
-Локальная папка лежит внутри git-репозитория, корень которого — **весь `/Users/dariapaivina`** (не сама папка сайта!). `git remote -v` там указывает на `github.com/Dariap5/community-system` — репозиторий совершенно другого проекта (Telegram-бот на FastAPI). Эта папка сайта в том репо числится как untracked. Обычный git-коммит здесь закоммитит сайт не туда и заодно захватит несвязанные изменения другого проекта. Для сайта нет своего git-репозитория — история изменений не отслеживается, только rsync-деплой напрямую.
 
 ## Структура
 
