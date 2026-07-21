@@ -7,11 +7,14 @@
      • заявка с лендинга      → лист «Заявки»
      • уведомление от ЮKassa  → лист «Оплаты»
 
-   Токен бота и секретное слово живут здесь, на серверах Google,
-   и в браузер посетителя не попадают. */
+   Секретное слово живёт здесь, на серверах Google, и в браузер
+   посетителя не попадает. */
 
-const TELEGRAM_TOKEN = '';    // от @BotFather, вида 8123456789:AAF...
-const TELEGRAM_CHAT_ID = '';  // от @userinfobot, или id общего чата
+/* Куда написать об оплате. Заявки и так приходят письмом с сайта,
+   а про оплату иначе никто не узнает — она просто ляжет в таблицу.
+   Можно указать несколько адресов через запятую. Оставить пустым —
+   писем не будет, всё только в таблице. */
+const NOTIFY_EMAIL = '';
 
 /* Секретное слово для уведомлений ЮKassa. Придумай любую длинную строку
    без пробелов. Адрес скрипта виден всем в коде лендинга, поэтому без
@@ -52,10 +55,12 @@ function handleLead(data) {
 
   if (!name || !telegram) return json({ ok: false, error: 'пустые поля' });
 
+  // порядок колонок важен: markPaid ищет ник в третьей
   sheet(LEADS, ['Дата', 'Имя', 'Telegram', 'Тариф', 'Оплата', 'Страница'])
     .appendRow([new Date(), name, telegram, tariff, '', clean(data.page)]);
 
-  notify('Новая заявка\n\nИмя: ' + name + '\nTelegram: ' + telegram + '\nТариф: ' + (tariff || '—'));
+  /* Письмо про заявку не шлём: она и так приходит с сайта через FormSubmit,
+     второе письмо о том же только засоряло бы почту. */
 
   return json({ ok: true });
 }
@@ -90,12 +95,16 @@ function handlePayment(data) {
   const matched = tag ? markPaid(tag, event) : false;
   const refund = event === 'refund.succeeded';
 
+  const what = refund ? 'Возврат' : 'Оплата';
   notify(
-    (refund ? 'Возврат' : 'Оплата') + '\n\n' +
+    what + ' · ' + amount,
+    what + '\n\n' +
       'Сумма: ' + amount + '\n' +
       (description ? 'Назначение: ' + description + '\n' : '') +
       (payer ? 'Плательщик: ' + payer + '\n' : '') +
-      (tag ? 'Telegram: ' + tag + (matched ? ' — заявка найдена' : ' — заявки нет') : 'Заявку нужно сопоставить вручную')
+      (tag
+        ? 'Telegram: ' + tag + (matched ? ' — заявка найдена, отметка проставлена' : ' — заявки с таким ником нет')
+        : 'Ник не передался — сопоставь с заявкой вручную по времени и сумме')
   );
 
   return json({ ok: true });
@@ -160,15 +169,16 @@ function sheet(name, headers) {
   return sh;
 }
 
-function notify(text) {
-  if (!TELEGRAM_TOKEN || !TELEGRAM_CHAT_ID) return;
+function notify(subject, body) {
+  if (!NOTIFY_EMAIL) return;
 
-  // muteHttpExceptions — упавший телеграм не должен ронять запись в таблицу
-  UrlFetchApp.fetch('https://api.telegram.org/bot' + TELEGRAM_TOKEN + '/sendMessage', {
-    method: 'post',
-    payload: { chat_id: TELEGRAM_CHAT_ID, text: text },
-    muteHttpExceptions: true,
-  });
+  /* Письмо не должно ронять запись в таблицу: строка уже сохранена,
+     и лучше потерять уведомление, чем саму оплату. */
+  try {
+    MailApp.sendEmail(NOTIFY_EMAIL, 'Марафон: ' + subject, body);
+  } catch (err) {
+    console.error('Письмо не ушло:', err);
+  }
 }
 
 function json(obj) {
@@ -180,7 +190,7 @@ function json(obj) {
 /* ============ проверка настройки ============ */
 
 /* Запусти вручную кнопкой «Выполнить», выбрав эту функцию:
-   создаст оба листа и пришлёт тестовое сообщение в Telegram. */
+   создаст оба листа и, если указана почта, пришлёт проверочное письмо. */
 function setup() {
   sheet(LEADS, ['Дата', 'Имя', 'Telegram', 'Тариф', 'Оплата', 'Страница']);
   sheet(PAYMENTS, ['Дата', 'Событие', 'Сумма', 'Описание', 'Плательщик', 'Метка', 'ID платежа']);
@@ -188,5 +198,5 @@ function setup() {
   if (!WEBHOOK_KEY) {
     console.warn('WEBHOOK_KEY пустой — уведомления от ЮKassa принимать нельзя');
   }
-  notify('Проверка связи: таблица марафона на месте');
+  notify('проверка связи', 'Таблица марафона на месте, письма доходят.');
 }
