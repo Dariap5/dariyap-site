@@ -318,6 +318,22 @@ section{padding:70px 0}
 .form input:last-of-type{margin-bottom:22px}
 .form .btn{width:100%;padding:17px}
 .form .btn[disabled]{opacity:.6;cursor:default;transform:none}
+/* выбор тарифа внутри формы */
+.form .lbl{display:block;font-size:13px;font-weight:600;color:#7A5854;margin:0 0 6px}
+.tariff{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 22px}
+.tariff input{position:absolute;opacity:0;pointer-events:none}
+.tariff label{
+  display:block;margin:0;cursor:pointer;text-align:center;
+  border:1px solid #EFE0D2;border-radius:12px;padding:12px 10px;
+  background:#FFFDFA;transition:border-color .18s,background .18s;
+}
+.tariff label:hover{border-color:#DDA9A9}
+.tariff input:checked+label{border-color:#B85C6B;background:#F0D9D9}
+.tariff input:focus-visible+label{outline:2px solid #B85C6B;outline-offset:2px}
+.tariff .t-name{display:block;font-size:13px;font-weight:600;color:#7A5854}
+.tariff .t-sum{display:block;font-family:'Cormorant Garamond',serif;font-size:22px;color:#4A2C2A;margin-top:2px}
+.thanks .btn{margin-top:18px;display:inline-flex}
+.thanks .alt{font-size:13px;color:#9C7370;margin-top:12px}
 .thanks{max-width:440px;margin:0 auto;background:#F0D9D9;border-radius:16px;padding:40px 30px}
 .thanks h3{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:30px;color:#4A2C2A;margin:0 0 10px}
 .thanks p{font-size:16px;line-height:1.55;color:#6B4B48;margin:0}
@@ -465,7 +481,7 @@ section{padding:70px 0}
         <p class="plan-tag">1 месяц</p>
         <p class="price">2 800 ₽</p>
         <p class="plan-sub">попробовать один поток</p>
-        <a href="#zayavka" class="btn">Занять место →</a>
+        <a href="#zayavka" class="btn" data-tariff="t-month">Занять место →</a>
       </div>
 
       <div class="plan plan-pro">
@@ -476,7 +492,7 @@ section{padding:70px 0}
         <p class="plan-tag">3 месяца</p>
         <p class="price">6 000 ₽</p>
         <p class="plan-sub">~2 000 ₽/мес · три темы подряд</p>
-        <a href="#zayavka" class="btn">Занять место →</a>
+        <a href="#zayavka" class="btn" data-tariff="t-three">Занять место →</a>
       </div>
     </div>
   </section>
@@ -509,7 +525,9 @@ section{padding:70px 0}
 
     <div class="thanks" id="thanks" hidden>
       <h3>Готово! ✿</h3>
-      <p>Заявка принята. Даша напишет тебе в Telegram и расскажет про старт потока.</p>
+      <p id="thanksText">Заявка принята. Даша напишет тебе в Telegram и расскажет про старт потока.</p>
+      <button type="button" class="btn" id="payBtn" hidden>Оплатить →</button>
+      <p class="alt" id="payAlt" hidden>Если оплата не открылась сама — нажми кнопку выше.</p>
     </div>
 
     <form class="form" id="form" novalidate>
@@ -518,13 +536,22 @@ section{padding:70px 0}
       <label for="f-tg">Твой Telegram</label>
       <input id="f-tg" name="telegram" type="text" placeholder="@username" autocomplete="off" required>
 
+      <span class="lbl" id="tariff-label">Тариф</span>
+      <div class="tariff" role="radiogroup" aria-labelledby="tariff-label">
+        <input type="radio" id="t-month" name="tariff" value="1 месяц — 2 800 ₽" checked>
+        <label for="t-month"><span class="t-name">1 месяц</span><span class="t-sum">2 800 ₽</span></label>
+
+        <input type="radio" id="t-three" name="tariff" value="3 месяца — 6 000 ₽">
+        <label for="t-three"><span class="t-name">3 месяца</span><span class="t-sum">6 000 ₽</span></label>
+      </div>
+
       <!-- ловушка для спам-ботов: люди этого поля не видят -->
       <div class="hp" aria-hidden="true">
         <label for="f-company">Не заполняй это поле</label>
         <input id="f-company" name="company" type="text" tabindex="-1" autocomplete="off">
       </div>
 
-      <button type="submit" class="btn">Хочу в поток →</button>
+      <button type="submit" class="btn">Перейти к оплате →</button>
       <p class="err" id="formErr" hidden></p>
     </form>
 

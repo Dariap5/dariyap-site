@@ -18,8 +18,29 @@
    сначала отправь пробную заявку сам и активируй. */
 const MAIL_ENDPOINT = 'https://formsubmit.co/ajax/4d834242d1d860d97e31cb423bfa9ffd';
 
-// Необязательно: таблица + сообщение в Telegram (см. apps-script.gs)
-const SHEET_ENDPOINT = '';   // https://script.google.com/macros/s/.../exec
+/* Google-таблица + сообщение в Telegram. Туда же приходят уведомления
+   об оплате от ЮKassa, поэтому заявка и платёж лежат рядом.
+   Код скрипта и настройка — marathon/apps-script.gs и marathon/README.md. */
+const SHEET_ENDPOINT =
+  'https://script.google.com/macros/s/AKfycby8P3fiuKDEoR3KyrWisZX7LnuJHtAsR0Qwxwkh3Q_Ew-MmMdtO4a_sRwEj1eoIOnVcFw/exec';
+
+/* Оплата через ЮKassa, магазин Даши. Конструктор платёжных форм отдаёт
+   не ссылку, а форму с POST-запросом, поэтому переходим отправкой формы,
+   а не location.href.
+
+   Секретный ключ API сюда вставлять нельзя: он даёт полный доступ
+   к деньгам магазина, а всё отсюда видно посетителям сайта.
+
+   Ключи объекта — id переключателей тарифа в форме заявки. */
+const YOOKASSA = {
+  shopId: '1339878',
+  action: 'https://yookassa.ru/integration/simplepay/payment',
+};
+
+const PAY_PLANS = {
+  't-month': { sum: '2800', label: '1 мес' },
+  't-three': { sum: '6000', label: '3 мес' },
+};
 
 /* ============ данные ============ */
 
@@ -275,6 +296,47 @@ function sendToMail(payload) {
   });
 }
 
+/* Уводит на оплату: собирает форму ЮKassa и отправляет её POST-запросом.
+
+   customerNumber — своё поле магазина. Кладём туда телеграм-ник, чтобы
+   платёж можно было связать с заявкой: в уведомлении об оплате почта
+   плательщика есть, а ника нет. Поле короткое, поэтому обрезаем. */
+function goToPayment(plan, telegram) {
+  const form = document.createElement('form');
+  form.method = 'POST';
+  form.action = YOOKASSA.action;
+  form.acceptCharset = 'utf-8';
+
+  const add = (name, value) => {
+    const input = document.createElement('input');
+    input.type = 'hidden';
+    input.name = name;
+    input.value = value;
+    form.appendChild(input);
+  };
+
+  add('shopId', YOOKASSA.shopId);
+  add('sum', plan.sum);
+
+  // режем ник, а не тариф: тариф нужен, чтобы сверить его с суммой платежа
+  const room = 30 - plan.label.length - 3;
+  add('customerNumber', telegram.slice(0, room) + ' · ' + plan.label);
+
+  document.body.appendChild(form);
+  form.submit();
+}
+
+/* Кнопка «Занять место» у тарифа отмечает этот тариф в форме,
+   чтобы человек не выбирал одно, а платил за другое. */
+(function tariffPick() {
+  document.querySelectorAll('[data-tariff]').forEach((link) => {
+    link.addEventListener('click', () => {
+      const radio = document.getElementById(link.dataset.tariff);
+      if (radio) radio.checked = true;
+    });
+  });
+})();
+
 (function form() {
   const el = $('#form');
   const thanks = $('#thanks');
@@ -306,7 +368,11 @@ function sendToMail(payload) {
     btn.disabled = true;
     btn.textContent = 'Отправляем…';
 
-    const payload = { name, telegram, page: location.href, date: new Date().toISOString() };
+    const tariffInput = el.querySelector('input[name="tariff"]:checked');
+    const tariff = tariffInput ? tariffInput.value : '';
+    const plan = tariffInput ? PAY_PLANS[tariffInput.id] : null;
+
+    const payload = { name, telegram, tariff, page: location.href, date: new Date().toISOString() };
 
     const jobs = [];
     if (MAIL_ENDPOINT) jobs.push(sendToMail(payload));
@@ -326,7 +392,7 @@ function sendToMail(payload) {
       showDone();
     } else {
       btn.disabled = false;
-      btn.textContent = 'Хочу в поток →';
+      btn.textContent = 'Перейти к оплате →';
       showErr('Не получилось отправить. Напиши нам в Telegram — разберёмся.');
     }
 
@@ -334,6 +400,31 @@ function sendToMail(payload) {
       el.hidden = true;
       thanks.hidden = false;
       thanks.scrollIntoView({ block: 'center', behavior: 'smooth' });
+
+      // тариф без настроенной оплаты — просто благодарим
+      if (!plan) return;
+
+      const payBtn = $('#payBtn');
+      const payAlt = $('#payAlt');
+      $('#thanksText').textContent =
+        'Заявка принята. Открываем оплату — ' + tariff.toLowerCase() + '.';
+      payBtn.hidden = false;
+      payAlt.hidden = false;
+
+      // отправить форму можно только один раз: и по таймеру, и по кнопке
+      let sending = false;
+      const pay = () => {
+        if (sending) return;
+        sending = true;
+        goToPayment(plan, telegram);
+      };
+
+      payBtn.addEventListener('click', pay);
+
+      /* Небольшая пауза, чтобы человек успел увидеть подтверждение
+         и не решил, что заявка потерялась. Кнопка остаётся запасным
+         путём: браузер может заблокировать отправку из скрипта. */
+      setTimeout(pay, 1600);
     }
   });
 })();
