@@ -21,7 +21,8 @@ const MAIL_ENDPOINT = 'https://formsubmit.co/ajax/4d834242d1d860d97e31cb423bfa9f
 /* Google-таблица + сообщение в Telegram. Туда же приходят уведомления
    об оплате от ЮKassa, поэтому заявка и платёж лежат рядом.
    Код скрипта и настройка — marathon/apps-script.gs и marathon/README.md. */
-const SHEET_ENDPOINT = '';   // https://script.google.com/macros/s/.../exec
+const SHEET_ENDPOINT =
+  'https://script.google.com/macros/s/AKfycby8P3fiuKDEoR3KyrWisZX7LnuJHtAsR0Qwxwkh3Q_Ew-MmMdtO4a_sRwEj1eoIOnVcFw/exec';
 
 /* Оплата через ЮKassa, магазин Даши. Конструктор платёжных форм отдаёт
    не ссылку, а форму с POST-запросом, поэтому переходим отправкой формы,
