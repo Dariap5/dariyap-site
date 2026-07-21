@@ -23,16 +23,22 @@ const MAIL_ENDPOINT = 'https://formsubmit.co/ajax/4d834242d1d860d97e31cb423bfa9f
    Код скрипта и настройка — marathon/apps-script.gs и marathon/README.md. */
 const SHEET_ENDPOINT = '';   // https://script.google.com/macros/s/.../exec
 
-/* Оплата через ЮKassa. Ссылки берутся в кабинете Даши: конструктор
-   платёжных форм или «Оплата по ссылке» — там же, где shopId 1339878.
+/* Оплата через ЮKassa, магазин Даши. Конструктор платёжных форм отдаёт
+   не ссылку, а форму с POST-запросом, поэтому переходим отправкой формы,
+   а не location.href.
+
    Секретный ключ API сюда вставлять нельзя: он даёт полный доступ
    к деньгам магазина, а всё отсюда видно посетителям сайта.
 
-   Ключи объекта — id переключателей тарифа в форме.
-   Пока пусто, форма просто показывает «Готово!» без перехода к оплате. */
-const PAY_LINKS = {
-  't-month': '',   // 1 месяц — 2 800 ₽
-  't-three': '',   // 3 месяца — 6 000 ₽
+   Ключи объекта — id переключателей тарифа в форме заявки. */
+const YOOKASSA = {
+  shopId: '1339878',
+  action: 'https://yookassa.ru/integration/simplepay/payment',
+};
+
+const PAY_PLANS = {
+  't-month': { sum: '2800', label: '1 мес' },
+  't-three': { sum: '6000', label: '3 мес' },
 };
 
 /* ============ данные ============ */
@@ -289,6 +295,36 @@ function sendToMail(payload) {
   });
 }
 
+/* Уводит на оплату: собирает форму ЮKassa и отправляет её POST-запросом.
+
+   customerNumber — своё поле магазина. Кладём туда телеграм-ник, чтобы
+   платёж можно было связать с заявкой: в уведомлении об оплате почта
+   плательщика есть, а ника нет. Поле короткое, поэтому обрезаем. */
+function goToPayment(plan, telegram) {
+  const form = document.createElement('form');
+  form.method = 'POST';
+  form.action = YOOKASSA.action;
+  form.acceptCharset = 'utf-8';
+
+  const add = (name, value) => {
+    const input = document.createElement('input');
+    input.type = 'hidden';
+    input.name = name;
+    input.value = value;
+    form.appendChild(input);
+  };
+
+  add('shopId', YOOKASSA.shopId);
+  add('sum', plan.sum);
+
+  // режем ник, а не тариф: тариф нужен, чтобы сверить его с суммой платежа
+  const room = 30 - plan.label.length - 3;
+  add('customerNumber', telegram.slice(0, room) + ' · ' + plan.label);
+
+  document.body.appendChild(form);
+  form.submit();
+}
+
 /* Кнопка «Занять место» у тарифа отмечает этот тариф в форме,
    чтобы человек не выбирал одно, а платил за другое. */
 (function tariffPick() {
@@ -333,7 +369,7 @@ function sendToMail(payload) {
 
     const tariffInput = el.querySelector('input[name="tariff"]:checked');
     const tariff = tariffInput ? tariffInput.value : '';
-    const payUrl = tariffInput ? PAY_LINKS[tariffInput.id] : '';
+    const plan = tariffInput ? PAY_PLANS[tariffInput.id] : null;
 
     const payload = { name, telegram, tariff, page: location.href, date: new Date().toISOString() };
 
@@ -364,23 +400,30 @@ function sendToMail(payload) {
       thanks.hidden = false;
       thanks.scrollIntoView({ block: 'center', behavior: 'smooth' });
 
-      // ссылки на оплату ещё не заведены — просто благодарим
-      if (!payUrl) return;
+      // тариф без настроенной оплаты — просто благодарим
+      if (!plan) return;
 
       const payBtn = $('#payBtn');
       const payAlt = $('#payAlt');
       $('#thanksText').textContent =
         'Заявка принята. Открываем оплату — ' + tariff.toLowerCase() + '.';
-      payBtn.href = payUrl;
       payBtn.hidden = false;
       payAlt.hidden = false;
 
+      // отправить форму можно только один раз: и по таймеру, и по кнопке
+      let sending = false;
+      const pay = () => {
+        if (sending) return;
+        sending = true;
+        goToPayment(plan, telegram);
+      };
+
+      payBtn.addEventListener('click', pay);
+
       /* Небольшая пауза, чтобы человек успел увидеть подтверждение
          и не решил, что заявка потерялась. Кнопка остаётся запасным
-         путём: браузер может заблокировать переход из скрипта. */
-      setTimeout(() => {
-        location.href = payUrl;
-      }, 1600);
+         путём: браузер может заблокировать отправку из скрипта. */
+      setTimeout(pay, 1600);
     }
   });
 })();
