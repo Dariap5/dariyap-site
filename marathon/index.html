@@ -113,6 +113,10 @@ h2.serif{font-size:clamp(28px,6vw,46px);line-height:1.08;margin:0 0 34px}
   padding:17px 30px;border-radius:44px;text-decoration:none;border:none;cursor:pointer;
   box-shadow:0 10px 26px rgba(74,44,42,.28);
   transition:transform .18s ease,box-shadow .18s ease;
+  /* без этого декоративные пятна (.blob) ложатся поверх кнопки:
+     они position:absolute, а непозиционированные элементы рисуются ниже.
+     На узком экране пятно попадает точно в кнопку и «засвечивает» её. */
+  position:relative;z-index:1;
 }
 .btn:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(74,44,42,.34)}
 .note{font-size:13px;color:#9C7370;margin:16px 0 0;position:relative}
