@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+     m[i].l=1*new Date();
+     for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+     k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+     (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+     ym(110445798, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+     });
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/110445798" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Марафон «Карьера» — за месяц разберись, куда двигаться</title>
+<meta name="description" content="Месячный марафон для школьников и студентов: карта направлений, готовое резюме и первые реальные шаги — в окружении, которое тоже двигается. Старт 3 августа, 40 мест.">
+
+<link rel="canonical" href="https://dariyap.ru/marathon/">
+<meta property="og:url" content="https://dariyap.ru/marathon/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Марафон «Карьера» — за месяц разберись, куда двигаться">
+<meta property="og:description" content="Месячный марафон для школьников и студентов: карта направлений, готовое резюме и первые реальные шаги. Старт 3 августа, 40 мест.">
+<meta property="og:image" content="https://dariyap.ru/assets/marathon/dasha.jpg">
+<meta property="og:locale" content="ru_RU">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FBF7F2">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 0 C13 8 16 11 24 12 C16 13 13 16 12 24 C11 16 8 13 0 12 C8 11 11 8 12 0Z' fill='%23DDA9A9'/></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* ============ base ============ */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:#FBF7F2;color:#4A2C2A;
+  font-family:Manrope,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px;overflow:hidden}
+
+/* ============ type ============ */
+.serif{font-family:'Cormorant Garamond',serif;font-weight:500}
+.it{font-style:italic}
+.eyebrow{
+  font-size:12px;font-weight:600;letter-spacing:.18em;
+  text-transform:uppercase;color:#B08585;margin:0 0 10px;
+}
+h2.serif{font-size:clamp(28px,6vw,46px);line-height:1.08;margin:0 0 34px}
+
+/* ============ animations ============ */
+@keyframes floaty{0%,100%{transform:translateY(0) rotate(var(--r,0deg))}50%{transform:translateY(-7px) rotate(var(--r,0deg))}}
+@keyframes drift{0%,100%{transform:translate(0,0) scale(1)}33%{transform:translate(30px,-24px) scale(1.06)}66%{transform:translate(-22px,18px) scale(.96)}}
+@keyframes blink{0%,45%{opacity:1}50%,95%{opacity:0}100%{opacity:1}}
+
+/* ============ hero ============ */
+.hero{
+  min-height:100svh;display:flex;flex-direction:column;
+  justify-content:center;align-items:center;text-align:center;
+  padding:64px 0 40px;position:relative;
+}
+.blob{position:absolute;border-radius:50%;pointer-events:none}
+.blob-1{top:6%;left:2%;width:340px;height:340px;background:radial-gradient(circle,rgba(232,196,196,.5),transparent 68%);animation:drift 14s ease-in-out infinite}
+.blob-2{bottom:4%;right:2%;width:400px;height:400px;background:radial-gradient(circle,rgba(244,231,218,.85),transparent 68%);animation:drift 18s ease-in-out infinite reverse}
+.blob-3{top:38%;right:8%;width:220px;height:220px;background:radial-gradient(circle,rgba(221,169,169,.28),transparent 66%);animation:drift 11s ease-in-out infinite}
+.spark{position:absolute;pointer-events:none;animation:floaty 6s ease-in-out infinite}
+.spark-1{top:10%;right:6%;opacity:.9;--r:8deg}
+.spark-2{top:22%;left:4%;opacity:.8;--r:-6deg;animation-duration:7s}
+.spark-3{bottom:16%;left:10%;opacity:.7;--r:12deg;animation-duration:8s}
+
+.hero-badge{display:flex;align-items:center;gap:8px;margin-bottom:22px;position:relative}
+.hero-badge span{font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#B08585}
+
+.hero h1{
+  font-family:'Cormorant Garamond',serif;font-weight:500;
+  font-size:clamp(34px,8.5vw,68px);line-height:1.04;letter-spacing:-.01em;
+  margin:0 0 20px;max-width:820px;position:relative;
+}
+.hl{position:relative;font-style:italic;white-space:nowrap}
+.hl::after{
+  content:"";position:absolute;left:-4px;right:-4px;bottom:4px;height:9px;
+  background:#E8C4C4;opacity:.75;border-radius:6px;transform:rotate(-1.2deg);z-index:-1;
+}
+.hero-lead{
+  font-size:clamp(15px,4vw,18px);line-height:1.6;color:#6B4B48;
+  max-width:620px;margin:0 0 10px;position:relative;
+}
+.hero-typed{
+  font-family:'Cormorant Garamond',serif;font-style:italic;
+  font-size:clamp(19px,5vw,26px);line-height:1.4;color:#8A3A48;
+  margin:0 0 30px;min-height:1.4em;position:relative;
+}
+.caret{
+  display:inline-block;width:2px;height:.95em;background:#B85C6B;
+  margin-left:3px;vertical-align:-.12em;animation:blink 1s step-end infinite;
+}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  background:#4A2C2A;color:#FBF7F2;font-weight:600;font-size:17px;
+  padding:17px 30px;border-radius:44px;text-decoration:none;border:none;cursor:pointer;
+  box-shadow:0 10px 26px rgba(74,44,42,.28);
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.btn:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(74,44,42,.34)}
+.note{font-size:13px;color:#9C7370;margin:16px 0 0;position:relative}
+
+.sticky{
+  position:relative;margin-top:34px;background:#F0D9D9;
+  padding:16px 20px 18px;border-radius:3px;
+  box-shadow:0 6px 18px rgba(74,44,42,.14);transform:rotate(-2deg);max-width:270px;
+}
+.sticky::before{
+  content:"";position:absolute;top:-9px;left:50%;
+  transform:translateX(-50%) rotate(3deg);width:64px;height:20px;
+  background:rgba(221,169,169,.5);border:1px solid rgba(255,255,255,.4);
+}
+.sticky-row{display:flex;align-items:center;gap:8px}
+.sticky-row span{font-family:Caveat,cursive;font-size:22px;color:#8A3A48;line-height:1.15}
+
+/* ============ sections ============ */
+section{padding:70px 0}
+.bordered{border-top:1px solid rgba(74,44,42,.09)}
+
+/* ============ pain cards ============ */
+.pain-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.pain{
+  position:relative;padding:24px 22px;border-radius:3px;
+  box-shadow:0 5px 16px rgba(74,44,42,.10);
+}
+.pain p{font-size:16px;line-height:1.5;margin:0;color:#5A3B38}
+.pain::before{content:"";position:absolute;top:-8px;width:52px;height:18px}
+.pain-a{background:#F4E7DA;transform:rotate(-1.4deg)}
+.pain-a::before{right:16px;background:rgba(232,196,196,.55);transform:rotate(6deg)}
+.pain-b{background:#F0D9D9;transform:rotate(1.2deg)}
+.pain-b::before{left:16px;background:rgba(221,169,169,.5);transform:rotate(-5deg)}
+.pain-c{background:#F0D9D9;transform:rotate(-1deg)}
+.pain-c::before{right:20px;background:rgba(221,169,169,.5);transform:rotate(7deg)}
+.pain-d{background:#F4E7DA;transform:rotate(1.6deg)}
+.pain-d::before{left:18px;background:rgba(232,196,196,.55);transform:rotate(-6deg)}
+.pain-sum{
+  font-size:clamp(16px,4vw,20px);line-height:1.62;color:#5A3B38;
+  max-width:640px;margin:34px auto 0;text-align:center;
+}
+.mark{background:linear-gradient(transparent 62%,#E8C4C4 62% 92%,transparent 92%)}
+
+/* ============ steps ============ */
+.steps{display:flex;flex-direction:column;gap:2px}
+.step{display:flex;gap:22px;align-items:baseline;padding:22px 0;border-bottom:1px solid rgba(74,44,42,.10)}
+.step:last-child{border-bottom:none}
+.step-n{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:40px;color:#DDA9A9;line-height:1;min-width:46px}
+.step h3{font-weight:700;font-size:19px;margin:0 0 4px}
+.step p{font-size:15px;line-height:1.5;color:#7A5854;margin:0}
+
+/* ============ track switch ============ */
+.switch{display:inline-flex;gap:6px;background:#F4E7DA;padding:6px;border-radius:44px;margin:0 0 14px}
+.switch button{
+  font-family:Manrope,sans-serif;font-weight:600;font-size:15px;white-space:nowrap;
+  padding:11px 22px;border-radius:40px;border:none;cursor:pointer;
+  background:transparent;color:#8A6560;transition:background .2s ease,color .2s ease;
+}
+.switch button[aria-selected="true"]{background:#4A2C2A;color:#FBF7F2}
+.track-offer{font-size:14px;line-height:1.55;color:#7A5854;max-width:560px;margin:0 0 30px}
+
+/* ============ week cards ============ */
+.weeks{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.week{
+  background:#FFFDFA;border:1px solid rgba(74,44,42,.10);border-radius:10px;
+  padding:26px 24px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%;
+  box-shadow:0 4px 16px rgba(74,44,42,.06);
+  transition:box-shadow .25s ease,transform .25s ease;
+}
+.week:hover,.week.open{box-shadow:0 12px 28px rgba(74,44,42,.12);transform:translateY(-3px)}
+.week-label{font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#DDA9A9}
+.week h3{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:26px;margin:8px 0 12px}
+.week-result{font-size:14px;line-height:1.5;color:#7A5854;margin:0}
+.week-result b{color:#4A2C2A;font-weight:600}
+.week-detail{
+  max-height:0;opacity:0;overflow:hidden;
+  transition:max-height .35s ease,opacity .3s ease;
+}
+.week:hover .week-detail,.week.open .week-detail{max-height:420px;opacity:1}
+.week-detail-in{
+  display:flex;flex-direction:column;gap:8px;
+  border-top:1px dashed rgba(74,44,42,.16);padding-top:14px;margin-top:14px;
+}
+.week-detail p{margin:0;font-size:13px;line-height:1.5;color:#7A5854}
+.week-detail p.desc{font-size:14px;line-height:1.55}
+.week-detail b{color:#B85C6B;font-weight:600}
+
+.chips{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.chip{display:inline-flex;align-items:center;gap:10px;padding:12px 20px;border-radius:40px;font-size:14px;font-weight:600}
+.chip-a{background:#F0D9D9;color:#8A3A48}
+.chip-b{background:#F4E7DA;color:#8A6034}
+
+/* ============ authors ============ */
+.authors{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:44px 32px;max-width:840px;margin:0 auto}
+.author{display:flex;flex-direction:column;align-items:center;text-align:center}
+.polaroid{
+  background:#FFFDFA;padding:14px 14px 42px;
+  box-shadow:0 10px 28px rgba(74,44,42,.16);
+  position:relative;margin-bottom:24px;
+}
+.polaroid::before{
+  content:"";position:absolute;top:-10px;left:50%;width:80px;height:22px;
+  border:1px solid rgba(255,255,255,.4);
+}
+.polaroid-l{transform:rotate(-3deg)}
+.polaroid-l::before{transform:translateX(-50%) rotate(2deg);background:rgba(221,169,169,.45)}
+.polaroid-r{transform:rotate(3deg)}
+.polaroid-r::before{transform:translateX(-50%) rotate(-2deg);background:rgba(232,196,196,.5)}
+.photo{width:180px;height:180px;border-radius:2px;overflow:hidden;background:#F0D9D9}
+.photo img{width:100%;height:100%;object-fit:cover}
+.polaroid-name{font-family:Caveat,cursive;font-size:24px;color:#8A3A48;margin:12px 0 0}
+.author-bio{font-size:15px;line-height:1.65;margin:0 0 20px;color:#6B4B48;max-width:360px}
+.author-bio b{font-weight:700;color:#4A2C2A}
+.btn-ghost{
+  display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:15px;
+  color:#4A2C2A;text-decoration:none;border:1.5px solid #4A2C2A;
+  padding:11px 20px;border-radius:40px;
+  transition:background .18s ease,color .18s ease;
+}
+.btn-ghost:hover{background:#4A2C2A;color:#FBF7F2}
+
+/* ============ pricing ============ */
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;max-width:720px;margin:0 auto}
+.plan{border-radius:14px;padding:34px 30px;text-align:center}
+.plan-basic{background:#FFFDFA;border:1px solid rgba(74,44,42,.12)}
+.plan-pro{position:relative;background:#4A2C2A;box-shadow:0 14px 34px rgba(74,44,42,.28)}
+.plan-tag{font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;margin:0 0 14px}
+.plan-basic .plan-tag{color:#B08585}
+.plan-pro .plan-tag{color:#DDA9A9;margin-top:6px}
+.price{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:52px;margin:0 0 6px}
+.plan-basic .price{color:#4A2C2A}
+.plan-pro .price{color:#FBF7F2;margin-bottom:4px}
+.plan-sub{font-size:14px;margin:0 0 24px}
+.plan-basic .plan-sub{color:#7A5854}
+.plan-pro .plan-sub{color:#E8C4C4}
+.plan .btn{display:flex;width:100%;padding:15px;font-size:16px}
+.plan-pro .btn{background:#FBF7F2;color:#4A2C2A;font-weight:700;box-shadow:none}
+.plan-pro .btn:hover{box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.ribbon{
+  position:absolute;top:-14px;left:50%;transform:translateX(-50%);
+  display:flex;align-items:center;gap:7px;background:#DDA9A9;color:#4A2C2A;
+  font-weight:700;font-size:12px;letter-spacing:.06em;
+  padding:6px 16px;border-radius:40px;white-space:nowrap;
+}
+
+/* ============ faq ============ */
+.faq{max-width:660px;margin:0 auto}
+.faq-item{border-bottom:1px solid rgba(74,44,42,.14)}
+.faq-q{
+  width:100%;display:flex;justify-content:space-between;align-items:center;gap:16px;
+  background:none;border:none;cursor:pointer;padding:22px 4px;text-align:left;
+  font-family:Manrope,sans-serif;font-weight:600;font-size:17px;color:#4A2C2A;
+}
+.faq-ico{display:inline-flex;transition:transform .28s ease}
+.faq-item.open .faq-ico{transform:rotate(180deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .32s ease}
+.faq-a p{font-size:15px;line-height:1.6;color:#7A5854;margin:0;padding:0 4px 22px}
+
+/* ============ «поговорить» ============ */
+.talk{
+  position:relative;max-width:660px;margin:0 auto;text-align:center;
+  background:#F4E7DA;border-radius:18px;padding:44px 36px 40px;
+  box-shadow:0 8px 26px rgba(74,44,42,.09);
+}
+.talk::before,.talk::after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+.talk::before{top:-18px;left:-14px;width:120px;height:120px;background:radial-gradient(circle,rgba(232,196,196,.55),transparent 70%)}
+.talk::after{bottom:-20px;right:-10px;width:150px;height:150px;background:radial-gradient(circle,rgba(221,169,169,.3),transparent 70%)}
+.talk h2{
+  font-family:'Cormorant Garamond',serif;font-weight:500;
+  font-size:clamp(26px,5.4vw,40px);line-height:1.1;
+  margin:0 0 16px;position:relative;
+}
+.talk p{
+  font-size:clamp(15px,3.8vw,17px);line-height:1.62;color:#6B4B48;
+  max-width:470px;margin:0 auto 26px;position:relative;
+}
+.talk .btn{position:relative;white-space:nowrap}
+.talk .note{margin-top:14px}
+@media (max-width:480px){
+  .talk{padding:38px 20px 34px}
+  .talk .btn{font-size:16px;padding:16px 22px}
+}
+
+/* ============ final + form ============ */
+.final{padding:80px 0 90px;text-align:center;scroll-margin-top:20px}
+.final h2{
+  font-family:'Cormorant Garamond',serif;font-weight:500;
+  font-size:clamp(28px,6.4vw,50px);line-height:1.1;margin:0 auto 30px;max-width:760px;
+}
+.form{max-width:440px;margin:0 auto;text-align:left}
+.form label{display:block;font-size:13px;font-weight:600;color:#7A5854;margin:0 0 6px}
+.form input{
+  width:100%;font-family:Manrope,sans-serif;font-size:16px;padding:15px 18px;
+  border:1.5px solid rgba(74,44,42,.18);border-radius:12px;
+  background:#FFFDFA;color:#4A2C2A;margin:0 0 18px;
+  transition:border-color .18s ease;
+}
+.form input:focus{outline:none;border-color:#DDA9A9}
+.form input:last-of-type{margin-bottom:22px}
+.form .btn{width:100%;padding:17px}
+.form .btn[disabled]{opacity:.6;cursor:default;transform:none}
+.thanks{max-width:440px;margin:0 auto;background:#F0D9D9;border-radius:16px;padding:40px 30px}
+.thanks h3{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:30px;color:#4A2C2A;margin:0 0 10px}
+.thanks p{font-size:16px;line-height:1.55;color:#6B4B48;margin:0}
+.err{color:#B85C6B;font-size:14px;margin:12px 0 0;text-align:center}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+[hidden]{display:none !important}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="spark spark-1"><svg width="26" height="26" viewBox="0 0 24 24"><path d="M12 0 C13 8 16 11 24 12 C16 13 13 16 12 24 C11 16 8 13 0 12 C8 11 11 8 12 0Z" fill="#DDA9A9"/></svg></div>
+    <div class="spark spark-2"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M12 0 C13 8 16 11 24 12 C16 13 13 16 12 24 C11 16 8 13 0 12 C8 11 11 8 12 0Z" fill="#E8C4C4"/></svg></div>
+    <div class="spark spark-3"><svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 0 C13 8 16 11 24 12 C16 13 13 16 12 24 C11 16 8 13 0 12 C8 11 11 8 12 0Z" fill="#DDA9A9"/></svg></div>
+
+    <div class="hero-badge">
+      <svg width="34" height="20" viewBox="0 0 40 24" fill="none" stroke="#DDA9A9" stroke-width="1.6" aria-hidden="true"><path d="M20 12 C10 2 2 4 4 12 C2 20 10 22 20 12Z"/><path d="M20 12 C30 2 38 4 36 12 C38 20 30 22 20 12Z"/><circle cx="20" cy="12" r="2.4" fill="#DDA9A9"/></svg>
+      <span>Марафон «Карьера» · первый поток</span>
+    </div>
+
+    <h1>За месяц разберись, <span class="hl">куда&nbsp;двигаться</span> — и&nbsp;сделай первые реальные шаги</h1>
+
+    <p class="hero-lead">Месячный марафон для школьников и студентов — в окружении, которое тоже двигается, а не откладывает.</p>
+    <p class="hero-typed">вместе <span id="typed"></span><span class="caret"></span></p>
+
+    <a href="#zayavka" class="btn">Хочу в первый поток →</a>
+    <p class="note">Старт 3 августа · всего 40 мест · от 2 000 ₽/мес</p>
+
+    <div class="sticky">
+      <div class="sticky-row">
+        <svg width="26" height="16" viewBox="0 0 40 24" fill="none" stroke="#B85C6B" stroke-width="1.6" aria-hidden="true"><path d="M20 12 C10 2 2 4 4 12 C2 20 10 22 20 12Z"/><path d="M20 12 C30 2 38 4 36 12 C38 20 30 22 20 12Z"/><circle cx="20" cy="12" r="2.4" fill="#B85C6B"/></svg>
+        <span>тему следующего месяца выбирает комьюнити</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PAIN ============ -->
+  <section>
+    <h2 class="serif">Узнаёшь <span class="it">себя</span>?</h2>
+    <div class="pain-grid">
+      <div class="pain pain-a"><p>«Кем я вообще хочу работать? А&nbsp;вдруг выберу не&nbsp;то?»</p></div>
+      <div class="pain pain-b"><p>«В резюме писать нечего — у&nbsp;меня нет опыта»</p></div>
+      <div class="pain pain-c"><p>«Все вокруг уже где-то стажируются, а&nbsp;я&nbsp;стою на&nbsp;месте»</p></div>
+      <div class="pain pain-d"><p>«Начинаю разбираться — и&nbsp;сливаюсь через три дня, потому что в&nbsp;одиночку»</p></div>
+    </div>
+    <p class="pain-sum">Проблема не&nbsp;в&nbsp;лени и&nbsp;не&nbsp;в&nbsp;нехватке информации. Не&nbsp;хватает <span class="mark">среды</span>: людей рядом с&nbsp;такими же&nbsp;целями, ритма и&nbsp;того, кто спросит в&nbsp;конце недели — ну&nbsp;что, получилось?</p>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="bordered">
+    <p class="eyebrow">Как это работает</p>
+    <h2 class="serif" style="max-width:600px;margin-bottom:40px">Ритм, который <span class="it">не&nbsp;даёт</span> слиться</h2>
+
+    <div class="steps">
+      <div class="step">
+        <span class="step-n">01</span>
+        <div><h3>Тема месяца</h3><p>Одно направление, вокруг которого строится весь месяц. Выбираем голосованием.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-n">02</span>
+        <div><h3>Материалы и эфиры каждую неделю</h3><p>Разборы, шаблоны и живые встречи. Всё в записи, если не успела.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-n">03</span>
+        <div><h3>Ежедневные отчёты&nbsp;=&nbsp;баллы</h3><p>Короткий отчёт в конце дня — и виден твой прогресс, а не только планы.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-n">04</span>
+        <div><h3>Рейтинг и топ месяца</h3><p>Немного здорового азарта: видно, кто как двигается, и приятно быть в топе.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-n">05</span>
+        <div><h3>Живое комьюнити с ветками по интересам</h3><p>Дизайн, IT, маркетинг, психология — свои чаты и те, кто поймёт.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROGRAM ============ -->
+  <section class="bordered">
+    <p class="eyebrow">Программа первого месяца</p>
+    <h2 class="serif" style="margin-bottom:26px">Тема потока — <span class="it">«Карьера»</span></h2>
+
+    <div class="switch" role="tablist" aria-label="Выбор трека">
+      <button type="button" role="tab" data-track="school" aria-selected="true">Я школьник</button>
+      <button type="button" role="tab" data-track="student" aria-selected="false">Я студент</button>
+    </div>
+    <p class="track-offer" id="trackOffer"></p>
+
+    <div class="weeks" id="weeks"></div>
+
+    <div class="chips">
+      <div class="chip chip-a">
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 C13 8 16 11 24 12 C16 13 13 16 12 24 C11 16 8 13 0 12 C8 11 11 8 12 0Z" fill="#B85C6B"/></svg>
+        + приглашённый спикер из реальной компании
+      </div>
+      <div class="chip chip-b">
+        <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 C13 8 16 11 24 12 C16 13 13 16 12 24 C11 16 8 13 0 12 C8 11 11 8 12 0Z" fill="#C9A98F"/></svg>
+        баллы за отчёты и результаты · топ месяца получает призы
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AUTHORS ============ -->
+  <section class="bordered">
+    <p class="eyebrow" style="text-align:center;margin-bottom:8px">Кто ведёт</p>
+    <h2 class="serif" style="font-size:clamp(26px,5.6vw,42px);text-align:center;margin-bottom:44px">Две девочки, которые <span class="it">двигаются</span> сами</h2>
+
+    <div class="authors">
+      <div class="author">
+        <div class="polaroid polaroid-l">
+          <div class="photo"><img src="/assets/marathon/dasha.jpg" alt="Даша — продакт-менеджер в IT" loading="lazy" width="180" height="180"></div>
+          <p class="polaroid-name">Даша</p>
+        </div>
+        <p class="author-bio"><b>Даша</b> — продакт-менеджер в&nbsp;IT, студентка ВШЭ. Совмещает работу в&nbsp;AI-продуктах, учёбу и&nbsp;свои проекты — и&nbsp;делится этим в&nbsp;канале <span class="it">не&nbsp;постфактум, а&nbsp;в&nbsp;процессе</span>.</p>
+        <a href="https://t.me" target="_blank" rel="noopener" class="btn-ghost">Канал Даши в Telegram →</a>
+      </div>
+
+      <div class="author">
+        <div class="polaroid polaroid-r">
+          <div class="photo" style="background:#EFE0D2"><img src="/assets/marathon/oksana.jpg" alt="Оксана — деливери-менеджер в IT" loading="lazy" width="180" height="180"></div>
+          <p class="polaroid-name">Оксана</p>
+        </div>
+        <p class="author-bio"><b>Оксана</b> — деливери-менеджер в&nbsp;IT и&nbsp;студентка ВШЭ. Сильна в&nbsp;нейросетях: доводит продукты до&nbsp;результата и&nbsp;<span class="it">по-настоящему кайфует</span> от&nbsp;того, как ИИ меняет работу — и&nbsp;умеет объяснить это по-человечески.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRICING ============ -->
+  <section class="bordered">
+    <h2 class="serif" style="text-align:center;margin-bottom:36px">Выбери <span class="it">свой</span> темп</h2>
+
+    <div class="plans">
+      <div class="plan plan-basic">
+        <p class="plan-tag">1 месяц</p>
+        <p class="price">2 800 ₽</p>
+        <p class="plan-sub">попробовать один поток</p>
+        <a href="#zayavka" class="btn">Занять место →</a>
+      </div>
+
+      <div class="plan plan-pro">
+        <div class="ribbon">
+          <svg width="20" height="12" viewBox="0 0 40 24" fill="none" stroke="#4A2C2A" stroke-width="2" aria-hidden="true"><path d="M20 12 C10 2 2 4 4 12 C2 20 10 22 20 12Z"/><path d="M20 12 C30 2 38 4 36 12 C38 20 30 22 20 12Z"/></svg>
+          ВЫГОДНЕЕ
+        </div>
+        <p class="plan-tag">3 месяца</p>
+        <p class="price">6 000 ₽</p>
+        <p class="plan-sub">~2 000 ₽/мес · три темы подряд</p>
+        <a href="#zayavka" class="btn">Занять место →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="bordered">
+    <h2 class="serif" style="text-align:center">Частые <span class="it">вопросы</span></h2>
+    <div class="faq" id="faq"></div>
+  </section>
+
+  <!-- ============ TALK TO US ============ -->
+  <section class="bordered">
+    <div class="talk">
+      <h2>Сомневаешься? <span class="it">Давай&nbsp;поговорим</span></h2>
+
+      <p>Напиши в&nbsp;Telegram — созвонимся на&nbsp;15&nbsp;минут и&nbsp;вместе решим, подходит тебе марафон или&nbsp;нет.</p>
+
+      <a href="https://t.me/oimerkulova" target="_blank" rel="noopener" class="btn">Написать в Telegram →</a>
+
+      <p class="note">Отвечаем сами, без ботов</p>
+    </div>
+  </section>
+
+  <!-- ============ FINAL + FORM ============ -->
+  <section id="zayavka" class="bordered final">
+    <div style="display:flex;justify-content:center;margin-bottom:20px">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 C13 8 16 11 24 12 C16 13 13 16 12 24 C11 16 8 13 0 12 C8 11 11 8 12 0Z" fill="#DDA9A9"/></svg>
+    </div>
+    <h2>Через месяц можно быть там&nbsp;же, где сейчас, — а&nbsp;можно с&nbsp;<span class="it">картой направлений</span>, готовым резюме и&nbsp;первыми откликами</h2>
+
+    <div class="thanks" id="thanks" hidden>
+      <h3>Готово! ✿</h3>
+      <p>Заявка принята. Даша напишет тебе в Telegram и расскажет про старт потока.</p>
+    </div>
+
+    <form class="form" id="form" novalidate>
+      <label for="f-name">Как тебя зовут</label>
+      <input id="f-name" name="name" type="text" placeholder="Имя" autocomplete="name" required>
+      <label for="f-tg">Твой Telegram</label>
+      <input id="f-tg" name="telegram" type="text" placeholder="@username" autocomplete="off" required>
+
+      <!-- ловушка для спам-ботов: люди этого поля не видят -->
+      <div class="hp" aria-hidden="true">
+        <label for="f-company">Не заполняй это поле</label>
+        <input id="f-company" name="company" type="text" tabindex="-1" autocomplete="off">
+      </div>
+
+      <button type="submit" class="btn">Хочу в поток →</button>
+      <p class="err" id="formErr" hidden></p>
+    </form>
+
+    <p class="note">40 мест · старт 3 августа</p>
+  </section>
+
+</div>
+
+<script src="/js/marathon.js"></script>
+</body>
+</html>
