@@ -21,6 +21,18 @@ const MAIL_ENDPOINT = 'https://formsubmit.co/ajax/4d834242d1d860d97e31cb423bfa9f
 // Необязательно: таблица + сообщение в Telegram (см. apps-script.gs)
 const SHEET_ENDPOINT = '';   // https://script.google.com/macros/s/.../exec
 
+/* Оплата через ЮKassa. Ссылки берутся в кабинете Даши: конструктор
+   платёжных форм или «Оплата по ссылке» — там же, где shopId 1339878.
+   Секретный ключ API сюда вставлять нельзя: он даёт полный доступ
+   к деньгам магазина, а всё отсюда видно посетителям сайта.
+
+   Ключи объекта — id переключателей тарифа в форме.
+   Пока пусто, форма просто показывает «Готово!» без перехода к оплате. */
+const PAY_LINKS = {
+  't-month': '',   // 1 месяц — 2 800 ₽
+  't-three': '',   // 3 месяца — 6 000 ₽
+};
+
 /* ============ данные ============ */
 
 const OFFERS = {
@@ -275,6 +287,17 @@ function sendToMail(payload) {
   });
 }
 
+/* Кнопка «Занять место» у тарифа отмечает этот тариф в форме,
+   чтобы человек не выбирал одно, а платил за другое. */
+(function tariffPick() {
+  document.querySelectorAll('[data-tariff]').forEach((link) => {
+    link.addEventListener('click', () => {
+      const radio = document.getElementById(link.dataset.tariff);
+      if (radio) radio.checked = true;
+    });
+  });
+})();
+
 (function form() {
   const el = $('#form');
   const thanks = $('#thanks');
@@ -306,7 +329,11 @@ function sendToMail(payload) {
     btn.disabled = true;
     btn.textContent = 'Отправляем…';
 
-    const payload = { name, telegram, page: location.href, date: new Date().toISOString() };
+    const tariffInput = el.querySelector('input[name="tariff"]:checked');
+    const tariff = tariffInput ? tariffInput.value : '';
+    const payUrl = tariffInput ? PAY_LINKS[tariffInput.id] : '';
+
+    const payload = { name, telegram, tariff, page: location.href, date: new Date().toISOString() };
 
     const jobs = [];
     if (MAIL_ENDPOINT) jobs.push(sendToMail(payload));
@@ -326,7 +353,7 @@ function sendToMail(payload) {
       showDone();
     } else {
       btn.disabled = false;
-      btn.textContent = 'Хочу в поток →';
+      btn.textContent = 'Перейти к оплате →';
       showErr('Не получилось отправить. Напиши нам в Telegram — разберёмся.');
     }
 
@@ -334,6 +361,24 @@ function sendToMail(payload) {
       el.hidden = true;
       thanks.hidden = false;
       thanks.scrollIntoView({ block: 'center', behavior: 'smooth' });
+
+      // ссылки на оплату ещё не заведены — просто благодарим
+      if (!payUrl) return;
+
+      const payBtn = $('#payBtn');
+      const payAlt = $('#payAlt');
+      $('#thanksText').textContent =
+        'Заявка принята. Открываем оплату — ' + tariff.toLowerCase() + '.';
+      payBtn.href = payUrl;
+      payBtn.hidden = false;
+      payAlt.hidden = false;
+
+      /* Небольшая пауза, чтобы человек успел увидеть подтверждение
+         и не решил, что заявка потерялась. Кнопка остаётся запасным
+         путём: браузер может заблокировать переход из скрипта. */
+      setTimeout(() => {
+        location.href = payUrl;
+      }, 1600);
     }
   });
 })();
