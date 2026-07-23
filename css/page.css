@@ -298,6 +298,18 @@
   grid-template-columns: 1fr;
 }
 
+.page-plan__lists--single .page-plan__list li {
+  text-align: center;
+  padding-left: 0;
+}
+
+.page-plan__lists--single .page-plan__list li::before {
+  position: static;
+  top: auto;
+  display: inline-block;
+  margin-right: 8px;
+}
+
 /* Home sections inside format pages */
 .page-main .process {
   padding-top: var(--section-pad);
@@ -448,6 +460,10 @@
 .page-hero--inactive {
   position: relative;
   overflow: visible;
+}
+
+.section-title--wide-gap {
+  gap: 0.15em 0.9em;
 }
 
 .page-hero__status {
