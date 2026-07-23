@@ -373,6 +373,10 @@
   margin-bottom: 0;
 }
 
+.intro-text--short {
+  display: none;
+}
+
 .people-cards {
   display: flex;
   justify-content: center;
@@ -988,6 +992,9 @@
   .people-card--right { margin-top: 20px; }
   .people-card__photo { width: 120px; height: 120px; }
   .people-card__name { font-size: 20px; }
+
+  .intro-text--short { display: block; }
+  .intro-text--full { display: none; }
 
   /* Hero */
   .page-hero { margin: 0 var(--gutter); padding: 36px 22px; border-radius: 24px; }
