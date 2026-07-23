@@ -296,8 +296,11 @@
 
 .page-plan__lists--single {
   grid-template-columns: 1fr;
-  width: 68%;
-  align-self: center;
+}
+
+.page-plan__lists--single .page-plan__list {
+  max-width: 66%;
+  margin: 0 auto;
 }
 
 /* Home sections inside format pages */
@@ -878,9 +881,8 @@
     grid-template-columns: 1fr;
   }
 
-  .page-plan__lists--single {
-    width: 100%;
-    align-self: stretch;
+  .page-plan__lists--single .page-plan__list {
+    max-width: 100%;
   }
 
   .community-join {
