@@ -294,15 +294,6 @@
   color: rgba(255, 255, 255, 0.82);
 }
 
-.page-plan__lists--single {
-  grid-template-columns: 1fr;
-}
-
-.page-plan__lists--single .page-plan__list {
-  max-width: 66%;
-  margin: 0 auto;
-}
-
 /* Home sections inside format pages */
 .page-main .process {
   padding-top: var(--section-pad);
@@ -879,10 +870,6 @@
 
   .page-plan__lists {
     grid-template-columns: 1fr;
-  }
-
-  .page-plan__lists--single .page-plan__list {
-    max-width: 100%;
   }
 
   .community-join {
