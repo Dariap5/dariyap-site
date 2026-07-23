@@ -387,16 +387,26 @@ function goToPayment(plan, telegram) {
     const results = await Promise.allSettled(jobs);
     results.filter((r) => r.status === 'rejected').forEach((r) => console.error(r.reason));
 
-    // успех, если сработал хотя бы один канал
-    if (results.some((r) => r.status === 'fulfilled')) {
-      showDone();
+    // заявка ушла, если сработал хотя бы один канал
+    const sent = results.some((r) => r.status === 'fulfilled');
+
+    /* Провал заявки НЕ должен закрывать дорогу к оплате. Формсабмит и
+       Google-таблицу встроенный блокировщик (Protect в Яндекс Браузере,
+       адблок) часто режет как трекеры — тогда оба fetch падают. Но платёж
+       уходит прямо в ЮKassa: ник летит в customerNumber, уведомление об
+       оплате всё равно придёт в таблицу, и «потерянную» заявку видно по
+       платежу. Поэтому платный тариф ведём к оплате в любом случае —
+       ошибку показываем лишь тем, у кого оплаты нет: их заявке деться
+       больше некуда. */
+    if (sent || plan) {
+      showDone(sent);
     } else {
       btn.disabled = false;
       btn.textContent = 'Перейти к оплате →';
       showErr('Не получилось отправить. Напиши нам в Telegram — разберёмся.');
     }
 
-    function showDone() {
+    function showDone(sent) {
       el.hidden = true;
       thanks.hidden = false;
       thanks.scrollIntoView({ block: 'center', behavior: 'smooth' });
@@ -406,8 +416,12 @@ function goToPayment(plan, telegram) {
 
       const payBtn = $('#payBtn');
       const payAlt = $('#payAlt');
-      $('#thanksText').textContent =
-        'Заявка принята. Открываем оплату — ' + tariff.toLowerCase() + '.';
+      /* Если заявка не дошла, не обещаем «заявка принята»: её нет.
+         Ведём к оплате и просим написать Даше — по платежу она добавит
+         в чат потока. */
+      $('#thanksText').textContent = sent
+        ? 'Заявка принята. Открываем оплату — ' + tariff.toLowerCase() + '.'
+        : 'Открываем оплату — ' + tariff.toLowerCase() + '. После оплаты напиши Даше в Telegram, чтобы она добавила тебя в чат потока.';
       payBtn.hidden = false;
       payAlt.hidden = false;
 
