@@ -294,6 +294,21 @@
   color: rgba(255, 255, 255, 0.82);
 }
 
+@media (min-width: 1101px) {
+  .page-plan.page-plan--build {
+    grid-template-columns: minmax(340px, 48%) minmax(0, 52%);
+  }
+
+  .page-plan--build .page-plan__panel {
+    align-self: start;
+    min-height: 0;
+  }
+
+  .page-plan--build .page-plan__lists {
+    min-height: 0;
+  }
+}
+
 /* Home sections inside format pages */
 .page-main .process {
   padding-top: var(--section-pad);
@@ -819,6 +834,10 @@
   body.figma-desktop .page-plan {
     grid-template-columns: minmax(420px, 44%) minmax(520px, 56%);
     min-height: 440px;
+  }
+
+  body.figma-desktop .page-plan.page-plan--build {
+    grid-template-columns: minmax(460px, 48%) minmax(0, 52%);
   }
 
   body.figma-desktop .page-plan__aside {
