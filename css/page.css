@@ -302,6 +302,7 @@
   .page-plan--build .page-plan__panel {
     align-self: start;
     min-height: 0;
+    padding-top: clamp(48px, 6vw, 64px);
   }
 
   .page-plan--build .page-plan__lists {
@@ -847,6 +848,10 @@
 
   body.figma-desktop .page-plan__panel {
     padding: 48px 44px 48px 0;
+  }
+
+  body.figma-desktop .page-plan--build .page-plan__panel {
+    padding-top: 72px;
   }
 
   body.figma-desktop .page-plan__lists {
