@@ -1330,8 +1330,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 
 /* Footer */
 .footer {
-  padding: var(--gutter);
-  padding-bottom: 0;
+  padding: var(--gutter) 0 0;
   margin-bottom: 0;
 }
 
