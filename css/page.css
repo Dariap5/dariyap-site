@@ -1057,10 +1057,12 @@
   .page-plan--build .page-plan__headline { font-size: clamp(26px, 7.5vw, 34px); }
   .page-plan--build .page-plan__desc { font-size: 14px; }
   .page-plan__btn { min-height: 52px; font-size: 15px; }
-  .page-plan__panel { padding: 0 22px 26px; }
+  .page-plan__panel { padding: 12px 22px 26px; }
   .page-plan__panel-title { margin-bottom: 12px; }
-  .page-plan__lists { padding: 20px; gap: 4px; border-radius: 16px; }
+  .page-plan__lists { padding: 20px; gap: 0; border-radius: 16px; min-height: 0; }
   .page-plan__list li { padding: 11px 0 11px 26px; font-size: 13.5px; }
+  .page-plan__list:first-of-type li:last-child { border-bottom: 1px solid rgba(255, 255, 255, 0.06); }
+  .page-section__heading.section-title--wide-gap { gap: 0.15em 0.4em; }
 
   /* FAQ — the broken block: restore full width + tighter rows */
   .page-faq { max-width: 100%; gap: 8px; }
