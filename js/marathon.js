@@ -326,17 +326,6 @@ function goToPayment(plan, telegram) {
   form.submit();
 }
 
-/* Кнопка «Занять место» у тарифа отмечает этот тариф в форме,
-   чтобы человек не выбирал одно, а платил за другое. */
-(function tariffPick() {
-  document.querySelectorAll('[data-tariff]').forEach((link) => {
-    link.addEventListener('click', () => {
-      const radio = document.getElementById(link.dataset.tariff);
-      if (radio) radio.checked = true;
-    });
-  });
-})();
-
 (function form() {
   const el = $('#form');
   const thanks = $('#thanks');
