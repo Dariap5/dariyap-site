@@ -42,7 +42,7 @@
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="../css/desktop-figma.css">
   <link rel="stylesheet" href="../css/divi-demo.css">
-  <link rel="stylesheet" href="../css/page.css">
+  <link rel="stylesheet" href="../css/page.css?v=2">
 </head>
 <body class="figma-desktop page-inner">
   <header class="header" id="header">
@@ -78,23 +78,23 @@
       <div class="container page-split">
         <div class="people-cards">
           <div class="people-card people-card--left people-card--flippable" tabindex="0" role="button" aria-pressed="false" aria-label="Показать достижения Даши">
-            <div class="people-card__flip">
-              <div class="people-card__face people-card__face--front">
+            <div class="people-card__stage">
+              <div class="people-card__front">
                 <div class="people-card__photo"><img src="../assets/marathon/dasha.jpg" alt="Даша" loading="lazy" width="160" height="160"></div>
                 <p class="people-card__name">Даша</p>
               </div>
-              <div class="people-card__face people-card__face--back">
+              <div class="people-card__shutter">
                 <p class="people-card__bio">Product manager в IT+AI, студентка ВШЭ (бизнес-информатика). Управляла проектами от 3 млн ₽ и командами до 30 человек: маркетинг, консалтинг, креатив. Сейчас делает AI-продукты, вайб-кодинг и комьюнити Together.</p>
               </div>
             </div>
           </div>
           <div class="people-card people-card--right people-card--flippable" tabindex="0" role="button" aria-pressed="false" aria-label="Показать достижения Оксаны">
-            <div class="people-card__flip">
-              <div class="people-card__face people-card__face--front">
+            <div class="people-card__stage">
+              <div class="people-card__front">
                 <div class="people-card__photo"><img src="../assets/marathon/oksana.jpg" alt="Оксана" loading="lazy" width="160" height="160"></div>
                 <p class="people-card__name">Оксана</p>
               </div>
-              <div class="people-card__face people-card__face--back">
+              <div class="people-card__shutter">
                 <p class="people-card__bio">7+ лет в EdTech и IT. Путь от контент-менеджера до руководителя команд и крупных проектов в Skillbox. Сейчас работает с IT, продуктом и AI, учится в магистратуре ВШЭ.</p>
               </div>
             </div>
@@ -184,7 +184,8 @@
         </h2>
         <div class="page-plan">
           <div class="page-plan__aside">
-            <p class="page-plan__price"><span class="page-plan__price-old">2 800 ₽</span> <span class="page-plan__price-new">990 ₽</span><span class="page-plan__period">/месяц</span></p>
+            <p class="page-plan__price-old">2 800 ₽<span class="page-plan__period">/месяц</span></p>
+            <p class="page-plan__price"><span class="page-plan__price-new">990 ₽</span><span class="page-plan__period">/месяц</span></p>
             <p class="page-plan__price-note">после бесплатного созвона</p>
             <h3 class="page-plan__name">Профориентация, самоопределение, карьера</h3>
             <a href="../marathon/" class="page-plan__btn page-plan__btn--primary">Узнать подробнее</a>
@@ -201,7 +202,7 @@
               </ul>
               <ul class="page-plan__list">
                 <li>Спикеры: Даша и Оксана</li>
-                <li>Старт 3 августа, 40 мест</li>
+                <li>40 мест в потоке</li>
                 <li>3 месяца выгоднее: 6 000 ₽ вместо 8 400 ₽</li>
                 <li>Следующая тема месяца выбирается голосованием</li>
               </ul>
@@ -264,7 +265,7 @@
           <div class="page-plan__aside">
             <p class="page-plan__label">Сейчас</p>
             <h3 class="page-plan__headline">Открываем первую волну</h3>
-            <p class="page-plan__desc">Первый месяц стартует 3 августа: профориентация, самоопределение и карьера. Дальше подключаю тематические месяцы, лидерборд, приглашённых спикеров и призы за топ-3.</p>
+            <p class="page-plan__desc">Первый месяц: профориентация, самоопределение и карьера. Дальше подключаю тематические месяцы, лидерборд, приглашённых спикеров и призы за топ-3.</p>
             <a href="https://t.me/students_community_bot?start=site_plan" class="page-plan__btn page-plan__btn--primary" target="_blank" rel="noopener noreferrer">Хочу подключиться</a>
             <a href="https://t.me/daria_ya5" class="page-plan__btn page-plan__btn--secondary" target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
           </div>
@@ -329,7 +330,7 @@
         <div class="page-faq">
           <details class="page-faq__item">
             <summary class="page-faq__question">Когда стартует комьюнити?<span class="page-faq__toggle" aria-hidden="true"></span></summary>
-            <div class="page-faq__answer"><p>Первый месяц стартует 3 августа: профориентация, самоопределение и карьера. Следующие темы объявляются по ходу, часть из них выбирают участники голосованием.</p></div>
+            <div class="page-faq__answer"><p>Первый месяц: профориентация, самоопределение и карьера. Точную дату старта скажу в Telegram. Следующие темы объявляются по ходу, часть из них выбирают участники голосованием.</p></div>
           </details>
           <details class="page-faq__item">
             <summary class="page-faq__question">Можно ли стать партнёром проекта?<span class="page-faq__toggle" aria-hidden="true"></span></summary>
@@ -388,6 +389,6 @@
     </div>
   </footer>
   <script src="../js/main.js"></script>
-  <script src="../js/page-format.js"></script>
+  <script src="../js/page-format.js?v=2"></script>
 </body>
 </html>

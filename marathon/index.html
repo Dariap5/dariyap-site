@@ -21,13 +21,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Марафон «Карьера» — за месяц разберись, куда двигаться</title>
-<meta name="description" content="Месячный марафон для школьников и студентов: карта направлений, готовое резюме и первые реальные шаги — в окружении, которое тоже двигается. Старт 3 августа, 40 мест.">
+<meta name="description" content="Месячный марафон для школьников и студентов: карта направлений, готовое резюме и первые реальные шаги — в окружении, которое тоже двигается. 40 мест в потоке.">
 
 <link rel="canonical" href="https://dariyap.ru/marathon/">
 <meta property="og:url" content="https://dariyap.ru/marathon/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Марафон «Карьера» — за месяц разберись, куда двигаться">
-<meta property="og:description" content="Месячный марафон для школьников и студентов: карта направлений, готовое резюме и первые реальные шаги. Старт 3 августа, 40 мест.">
+<meta property="og:description" content="Месячный марафон для школьников и студентов: карта направлений, готовое резюме и первые реальные шаги. 40 мест в потоке.">
 <meta property="og:image" content="https://dariyap.ru/assets/marathon/dasha.jpg">
 <meta property="og:locale" content="ru_RU">
 <meta name="twitter:card" content="summary_large_image">
@@ -228,12 +228,11 @@ section{padding:70px 0}
 .polaroid-name{font-family:Caveat,cursive;font-size:24px;color:#8A3A48;margin:12px 0 0}
 .author-bio{font-size:15px;line-height:1.65;margin:0 0 20px;color:#6B4B48;max-width:360px}
 .author-bio b{font-weight:700;color:#4A2C2A}
-.polaroid{perspective:1000px;cursor:pointer}
-.polaroid-flip{position:relative;width:180px;height:222px;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.2,.2,1)}
-.polaroid.is-flipped .polaroid-flip{transform:rotateY(180deg)}
-.polaroid-face{position:absolute;inset:0;backface-visibility:hidden}
-.polaroid-face--back{display:flex;align-items:center;transform:rotateY(180deg);background:#FFFDFA;padding:14px;border-radius:2px;overflow-y:auto;scrollbar-width:none}
-.polaroid-face--back::-webkit-scrollbar{display:none}
+.polaroid{cursor:pointer}
+.polaroid-stage{position:relative;width:180px;overflow:hidden;border-radius:2px}
+.polaroid-shutter{position:absolute;inset:0;display:flex;align-items:center;background:#FFFDFA;padding:14px;transform:translateY(100%);transition:transform .45s cubic-bezier(.4,0,.2,1);overflow-y:auto;scrollbar-width:none}
+.polaroid.is-flipped .polaroid-shutter{transform:translateY(0)}
+.polaroid-shutter::-webkit-scrollbar{display:none}
 .polaroid-bio-back{margin:0;font-size:12.5px;line-height:1.5;color:#6B4B48;text-align:center}
 .author-hint{font-size:13px;color:#9C7370;text-align:center;margin:-8px 0 26px}
 .btn-ghost{
@@ -253,6 +252,7 @@ section{padding:70px 0}
 .plan-basic .plan-tag{color:#B08585}
 .plan-pro .plan-tag{color:#DDA9A9;margin-top:6px}
 .price{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:52px;margin:0 0 6px}
+.price-old{font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;color:#4A2C2A;opacity:.5;text-decoration:line-through;margin:0 0 2px}
 .plan-basic .price{color:#4A2C2A}
 .plan-pro .price{color:#FBF7F2;margin-bottom:4px}
 .plan-sub{font-size:14px;margin:0 0 24px}
@@ -377,7 +377,7 @@ section{padding:70px 0}
     <p class="hero-typed">вместе <span id="typed"></span><span class="caret"></span></p>
 
     <a href="https://t.me/students_community_bot?start=site_hero" target="_blank" rel="noopener" class="btn">Хочу в первый поток →</a>
-    <p class="note">Старт 3 августа · всего 40 мест · от 2 000 ₽/мес</p>
+    <p class="note">Всего 40 мест, от 990 ₽/мес</p>
 
     <div class="sticky">
       <div class="sticky-row">
@@ -461,12 +461,12 @@ section{padding:70px 0}
     <div class="authors">
       <div class="author">
         <div class="polaroid polaroid-l" tabindex="0" role="button" aria-pressed="false" aria-label="Показать достижения Даши">
-          <div class="polaroid-flip">
-            <div class="polaroid-face polaroid-face--front">
+          <div class="polaroid-stage">
+            <div class="polaroid-front">
               <div class="photo"><img src="/assets/marathon/dasha.jpg" alt="Даша — продакт-менеджер в IT" loading="lazy" width="180" height="180"></div>
               <p class="polaroid-name">Даша</p>
             </div>
-            <div class="polaroid-face polaroid-face--back">
+            <div class="polaroid-shutter">
               <p class="polaroid-bio-back">Product manager в&nbsp;IT+AI, студентка ВШЭ (бизнес-информатика). Управляла проектами от&nbsp;3&nbsp;млн ₽ и&nbsp;командами до&nbsp;30&nbsp;человек: маркетинг, консалтинг, креатив. Сейчас делает AI-продукты, вайб-кодинг и&nbsp;комьюнити Together.</p>
             </div>
           </div>
@@ -477,12 +477,12 @@ section{padding:70px 0}
 
       <div class="author">
         <div class="polaroid polaroid-r" tabindex="0" role="button" aria-pressed="false" aria-label="Показать достижения Оксаны">
-          <div class="polaroid-flip">
-            <div class="polaroid-face polaroid-face--front">
+          <div class="polaroid-stage">
+            <div class="polaroid-front">
               <div class="photo" style="background:#EFE0D2"><img src="/assets/marathon/oksana.jpg" alt="Оксана — деливери-менеджер в IT" loading="lazy" width="180" height="180"></div>
               <p class="polaroid-name">Оксана</p>
             </div>
-            <div class="polaroid-face polaroid-face--back">
+            <div class="polaroid-shutter">
               <p class="polaroid-bio-back">7+&nbsp;лет в&nbsp;EdTech и&nbsp;IT. Путь от&nbsp;контент-менеджера до&nbsp;руководителя команд и&nbsp;крупных образовательных проектов в&nbsp;Skillbox. Сейчас работает с&nbsp;IT, продуктом и&nbsp;AI, учится в&nbsp;магистратуре ВШЭ.</p>
             </div>
           </div>
@@ -503,8 +503,9 @@ section{padding:70px 0}
     <div class="plans">
       <div class="plan plan-basic">
         <p class="plan-tag">1 месяц</p>
-        <p class="price">2 800 ₽</p>
-        <p class="plan-sub">попробовать один поток</p>
+        <p class="price-old">2 800 ₽</p>
+        <p class="price">990 ₽</p>
+        <p class="plan-sub">после бесплатного созвона</p>
         <a href="https://t.me/students_community_bot?start=site_month" target="_blank" rel="noopener" class="btn">Занять место →</a>
       </div>
 
@@ -549,11 +550,11 @@ section{padding:70px 0}
 
     <a href="https://t.me/students_community_bot?start=site_final" target="_blank" rel="noopener" class="btn">Вступить в комьюнити →</a>
 
-    <p class="note">40 мест · старт 3 августа · оплата прямо в Telegram</p>
+    <p class="note">40 мест, оплата прямо в Telegram</p>
   </section>
 
 </div>
 
-<script src="/js/marathon.js"></script>
+<script src="/js/marathon.js?v=2"></script>
 </body>
 </html>
