@@ -377,6 +377,11 @@
   display: none;
 }
 
+.people-cards-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
 .people-cards {
   display: flex;
   justify-content: center;
