@@ -228,6 +228,14 @@ section{padding:70px 0}
 .polaroid-name{font-family:Caveat,cursive;font-size:24px;color:#8A3A48;margin:12px 0 0}
 .author-bio{font-size:15px;line-height:1.65;margin:0 0 20px;color:#6B4B48;max-width:360px}
 .author-bio b{font-weight:700;color:#4A2C2A}
+.polaroid{perspective:1000px;cursor:pointer}
+.polaroid-flip{position:relative;width:180px;height:222px;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.2,.2,1)}
+.polaroid.is-flipped .polaroid-flip{transform:rotateY(180deg)}
+.polaroid-face{position:absolute;inset:0;backface-visibility:hidden}
+.polaroid-face--back{display:flex;align-items:center;transform:rotateY(180deg);background:#FFFDFA;padding:14px;border-radius:2px;overflow-y:auto;scrollbar-width:none}
+.polaroid-face--back::-webkit-scrollbar{display:none}
+.polaroid-bio-back{margin:0;font-size:12.5px;line-height:1.5;color:#6B4B48;text-align:center}
+.author-hint{font-size:13px;color:#9C7370;text-align:center;margin:-8px 0 26px}
 .btn-ghost{
   display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:15px;
   color:#4A2C2A;text-decoration:none;border:1.5px solid #4A2C2A;
@@ -452,20 +460,34 @@ section{padding:70px 0}
 
     <div class="authors">
       <div class="author">
-        <div class="polaroid polaroid-l">
-          <div class="photo"><img src="/assets/marathon/dasha.jpg" alt="Даша — продакт-менеджер в IT" loading="lazy" width="180" height="180"></div>
-          <p class="polaroid-name">Даша</p>
+        <div class="polaroid polaroid-l" tabindex="0" role="button" aria-pressed="false" aria-label="Показать достижения Даши">
+          <div class="polaroid-flip">
+            <div class="polaroid-face polaroid-face--front">
+              <div class="photo"><img src="/assets/marathon/dasha.jpg" alt="Даша — продакт-менеджер в IT" loading="lazy" width="180" height="180"></div>
+              <p class="polaroid-name">Даша</p>
+            </div>
+            <div class="polaroid-face polaroid-face--back">
+              <p class="polaroid-bio-back">Product manager в&nbsp;IT+AI, студентка ВШЭ (бизнес-информатика). Управляла проектами от&nbsp;3&nbsp;млн ₽ и&nbsp;командами до&nbsp;30&nbsp;человек: маркетинг, консалтинг, креатив. Сейчас делает AI-продукты, вайб-кодинг и&nbsp;комьюнити Together.</p>
+            </div>
+          </div>
         </div>
-        <p class="author-bio"><b>Даша</b> — продакт-менеджер в&nbsp;IT, студентка ВШЭ. Совмещает работу в&nbsp;AI-продуктах, учёбу и&nbsp;свои проекты — и&nbsp;делится этим в&nbsp;канале <span class="it">не&nbsp;постфактум, а&nbsp;в&nbsp;процессе</span>.</p>
+        <p class="author-hint">Нажми на фото, чтобы узнать больше</p>
         <a href="https://t.me/dariyapay" target="_blank" rel="noopener" class="btn-ghost">Канал Даши в Telegram →</a>
       </div>
 
       <div class="author">
-        <div class="polaroid polaroid-r">
-          <div class="photo" style="background:#EFE0D2"><img src="/assets/marathon/oksana.jpg" alt="Оксана — деливери-менеджер в IT" loading="lazy" width="180" height="180"></div>
-          <p class="polaroid-name">Оксана</p>
+        <div class="polaroid polaroid-r" tabindex="0" role="button" aria-pressed="false" aria-label="Показать достижения Оксаны">
+          <div class="polaroid-flip">
+            <div class="polaroid-face polaroid-face--front">
+              <div class="photo" style="background:#EFE0D2"><img src="/assets/marathon/oksana.jpg" alt="Оксана — деливери-менеджер в IT" loading="lazy" width="180" height="180"></div>
+              <p class="polaroid-name">Оксана</p>
+            </div>
+            <div class="polaroid-face polaroid-face--back">
+              <p class="polaroid-bio-back">7+&nbsp;лет в&nbsp;EdTech и&nbsp;IT. Путь от&nbsp;контент-менеджера до&nbsp;руководителя команд и&nbsp;крупных образовательных проектов в&nbsp;Skillbox. Сейчас работает с&nbsp;IT, продуктом и&nbsp;AI, учится в&nbsp;магистратуре ВШЭ.</p>
+            </div>
+          </div>
         </div>
-        <p class="author-bio"><b>Оксана</b> — деливери-менеджер в&nbsp;IT и&nbsp;студентка ВШЭ. Сильна в&nbsp;нейросетях: доводит продукты до&nbsp;результата и&nbsp;<span class="it">по-настоящему кайфует</span> от&nbsp;того, как ИИ меняет работу — и&nbsp;умеет объяснить это по-человечески.</p>
+        <p class="author-hint">Нажми на фото, чтобы узнать больше</p>
       </div>
     </div>
   </section>

@@ -177,6 +177,24 @@ const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&l
   })();
 })();
 
+/* ============ переворот карточек авторов ============ */
+
+(function authorFlip() {
+  document.querySelectorAll('.polaroid').forEach((card) => {
+    const toggle = () => {
+      const flipped = card.classList.toggle('is-flipped');
+      card.setAttribute('aria-pressed', String(flipped));
+    };
+    card.addEventListener('click', toggle);
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggle();
+      }
+    });
+  });
+})();
+
 /* ============ треки + карточки недель ============ */
 
 (function tracks() {

@@ -77,15 +77,30 @@
     <section class="page-section">
       <div class="container page-split">
         <div class="people-cards">
-          <div class="people-card people-card--left">
-            <div class="people-card__photo"><img src="../assets/marathon/dasha.jpg" alt="Даша" loading="lazy" width="160" height="160"></div>
-            <p class="people-card__name">Даша</p>
+          <div class="people-card people-card--left people-card--flippable" tabindex="0" role="button" aria-pressed="false" aria-label="Показать достижения Даши">
+            <div class="people-card__flip">
+              <div class="people-card__face people-card__face--front">
+                <div class="people-card__photo"><img src="../assets/marathon/dasha.jpg" alt="Даша" loading="lazy" width="160" height="160"></div>
+                <p class="people-card__name">Даша</p>
+              </div>
+              <div class="people-card__face people-card__face--back">
+                <p class="people-card__bio">Product manager в IT+AI, студентка ВШЭ (бизнес-информатика). Управляла проектами от 3 млн ₽ и командами до 30 человек: маркетинг, консалтинг, креатив. Сейчас делает AI-продукты, вайб-кодинг и комьюнити Together.</p>
+              </div>
+            </div>
           </div>
-          <div class="people-card people-card--right">
-            <div class="people-card__photo"><img src="../assets/marathon/oksana.jpg" alt="Оксана" loading="lazy" width="160" height="160"></div>
-            <p class="people-card__name">Оксана</p>
+          <div class="people-card people-card--right people-card--flippable" tabindex="0" role="button" aria-pressed="false" aria-label="Показать достижения Оксаны">
+            <div class="people-card__flip">
+              <div class="people-card__face people-card__face--front">
+                <div class="people-card__photo"><img src="../assets/marathon/oksana.jpg" alt="Оксана" loading="lazy" width="160" height="160"></div>
+                <p class="people-card__name">Оксана</p>
+              </div>
+              <div class="people-card__face people-card__face--back">
+                <p class="people-card__bio">7+ лет в EdTech и IT. Путь от контент-менеджера до руководителя команд и крупных проектов в Skillbox. Сейчас работает с IT, продуктом и AI, учится в магистратуре ВШЭ.</p>
+              </div>
+            </div>
           </div>
         </div>
+        <p class="people-cards__hint">Нажми на карточку, чтобы узнать больше о нас</p>
         <div class="page-split__content">
           <h2>Что мы создаём</h2>
           <p class="intro-text--short">Мы создаём систему роста, где каждый месяц новая тема, практика и результат: проект, портфолио или кейс для карьеры.</p>
@@ -169,7 +184,8 @@
         </h2>
         <div class="page-plan">
           <div class="page-plan__aside">
-            <p class="page-plan__price">2 800 ₽<span class="page-plan__period">/месяц</span></p>
+            <p class="page-plan__price"><span class="page-plan__price-old">2 800 ₽</span> <span class="page-plan__price-new">990 ₽</span><span class="page-plan__period">/месяц</span></p>
+            <p class="page-plan__price-note">после бесплатного созвона</p>
             <h3 class="page-plan__name">Профориентация, самоопределение, карьера</h3>
             <a href="../marathon/" class="page-plan__btn page-plan__btn--primary">Узнать подробнее</a>
             <a href="https://t.me/daria_ya5" class="page-plan__btn page-plan__btn--secondary" target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
@@ -333,7 +349,7 @@
           </details>
           <details class="page-faq__item">
             <summary class="page-faq__question">Сколько стоит участие?<span class="page-faq__toggle" aria-hidden="true"></span></summary>
-            <div class="page-faq__answer"><p>Первый месяц стоит 2 800 ₽. При оплате трёх месяцев вперёд: 6 000 ₽, это около 2 000 ₽ за месяц.</p></div>
+            <div class="page-faq__answer"><p>Первый месяц стоит 990 ₽ после бесплатного созвона, обычная цена 2 800 ₽. При оплате трёх месяцев вперёд: 6 000 ₽, это около 2 000 ₽ за месяц.</p></div>
           </details>
           <details class="page-faq__item">
             <summary class="page-faq__question">Будут ли приглашённые спикеры?<span class="page-faq__toggle" aria-hidden="true"></span></summary>
