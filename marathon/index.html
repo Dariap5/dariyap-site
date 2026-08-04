@@ -376,7 +376,7 @@ section{padding:70px 0}
     <p class="hero-lead">Месячный марафон для школьников и студентов — в окружении, которое тоже двигается, а не откладывает.</p>
     <p class="hero-typed">вместе <span id="typed"></span><span class="caret"></span></p>
 
-    <a href="#zayavka" class="btn">Хочу в первый поток →</a>
+    <a href="https://t.me/students_community_bot?start=site_hero" target="_blank" rel="noopener" class="btn">Хочу в первый поток →</a>
     <p class="note">Старт 3 августа · всего 40 мест · от 2 000 ₽/мес</p>
 
     <div class="sticky">
@@ -501,7 +501,7 @@ section{padding:70px 0}
         <p class="plan-tag">1 месяц</p>
         <p class="price">2 800 ₽</p>
         <p class="plan-sub">попробовать один поток</p>
-        <a href="#zayavka" class="btn" data-tariff="t-month">Занять место →</a>
+        <a href="https://t.me/students_community_bot?start=site_month" target="_blank" rel="noopener" class="btn">Занять место →</a>
       </div>
 
       <div class="plan plan-pro">
@@ -512,7 +512,7 @@ section{padding:70px 0}
         <p class="plan-tag">3 месяца</p>
         <p class="price">6 000 ₽</p>
         <p class="plan-sub">~2 000 ₽/мес · три темы подряд</p>
-        <a href="#zayavka" class="btn" data-tariff="t-three">Занять место →</a>
+        <a href="https://t.me/students_community_bot?start=site_quarter" target="_blank" rel="noopener" class="btn">Занять место →</a>
       </div>
     </div>
   </section>
@@ -536,46 +536,16 @@ section{padding:70px 0}
     </div>
   </section>
 
-  <!-- ============ FINAL + FORM ============ -->
+  <!-- ============ FINAL ============ -->
   <section id="zayavka" class="bordered final">
     <div style="display:flex;justify-content:center;margin-bottom:20px">
       <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 C13 8 16 11 24 12 C16 13 13 16 12 24 C11 16 8 13 0 12 C8 11 11 8 12 0Z" fill="#DDA9A9"/></svg>
     </div>
     <h2>Через месяц можно быть там&nbsp;же, где сейчас, — а&nbsp;можно с&nbsp;<span class="it">картой направлений</span>, готовым резюме и&nbsp;первыми откликами</h2>
 
-    <div class="thanks" id="thanks" hidden>
-      <h3>Готово! ✿</h3>
-      <p id="thanksText">Заявка принята. Даша напишет тебе в Telegram и расскажет про старт потока.</p>
-      <button type="button" class="btn" id="payBtn" hidden>Оплатить →</button>
-      <p class="alt" id="payAlt" hidden>Если оплата не открылась сама — нажми кнопку выше.</p>
-    </div>
+    <a href="https://t.me/students_community_bot?start=site_final" target="_blank" rel="noopener" class="btn">Вступить в комьюнити →</a>
 
-    <form class="form" id="form" novalidate>
-      <label for="f-name">Как тебя зовут</label>
-      <input id="f-name" name="name" type="text" placeholder="Имя" autocomplete="name" required>
-      <label for="f-tg">Твой Telegram</label>
-      <input id="f-tg" name="telegram" type="text" placeholder="@username" autocomplete="off" required>
-
-      <span class="lbl" id="tariff-label">Тариф</span>
-      <div class="tariff" role="radiogroup" aria-labelledby="tariff-label">
-        <input type="radio" id="t-month" name="tariff" value="1 месяц — 2 800 ₽" checked>
-        <label for="t-month"><span class="t-name">1 месяц</span><span class="t-sum">2 800 ₽</span></label>
-
-        <input type="radio" id="t-three" name="tariff" value="3 месяца — 6 000 ₽">
-        <label for="t-three"><span class="t-name">3 месяца</span><span class="t-sum">6 000 ₽</span></label>
-      </div>
-
-      <!-- ловушка для спам-ботов: люди этого поля не видят -->
-      <div class="hp" aria-hidden="true">
-        <label for="f-company">Не заполняй это поле</label>
-        <input id="f-company" name="company" type="text" tabindex="-1" autocomplete="off">
-      </div>
-
-      <button type="submit" class="btn">Перейти к оплате →</button>
-      <p class="err" id="formErr" hidden></p>
-    </form>
-
-    <p class="note">40 мест · старт 3 августа</p>
+    <p class="note">40 мест · старт 3 августа · оплата прямо в Telegram</p>
   </section>
 
 </div>
